@@ -16,3 +16,7 @@ Directory structure:
 Install the Gtk+ framework (together with Cairo and GLib, if not included in the framework already) to /Library/Frameworks/. At the time of writing (2009-03-10), the framework included in this archive should be the newest one (build from SVN). If that one is outdated, you can download it from www.gtk-osx.org.
 
 Now, you should be able to load the Xcode project in pidgin-macosx and build Pidgin.
+
+This Pidgin port for MacOSX is maintained by Albert Zeyer.
+Contact me at albert.zeyer@rwth-aachen.de.
+Or visit my homepage: www.az2000.de
