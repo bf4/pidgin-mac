@@ -23,6 +23,7 @@
 
 #define FACEBOOK_PLUGIN_VERSION "1.47"
 
+#include <config.h>
 #include <glib.h>
 
 #include <errno.h>
