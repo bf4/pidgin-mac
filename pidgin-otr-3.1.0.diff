@@ -1,0 +1,13 @@
+--- pidgin-otr-3.1.0-orig/gtk-dialog.c	2007-07-26 20:33:51.000000000 +0200
++++ pidgin-otr-3.1.0/gtk-dialog.c	2009-02-18 20:21:05.000000000 +0100
+@@ -940,8 +940,8 @@
+     /* This is a deprecated API, but mucking with PangoFontDescriptions
+      * is (a) complicated, and (b) not fully supported by older versions
+      * of libpango, which some people may have. */
+-    font = gtk_style_get_font(imh->style);
+-    gtk_widget_set_size_request(scrl, -1, 6 * (font->ascent + font->descent));
++    //font = gtk_style_get_font(imh->style);
++    gtk_widget_set_size_request(scrl, -1, 6 * 10/* (font->ascent + font->descent)*/);
+ }
+ 
+ static GtkWidget *create_smp_dialog(const char *title,

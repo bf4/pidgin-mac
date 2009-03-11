@@ -1,0 +1,11 @@
+--- gfire-0.7.1-orig/src/gfire.h	2008-10-01 15:53:37.000000000 +0200
++++ gfire-0.7.1/src/gfire.h	2009-03-10 18:46:54.000000000 +0100
+@@ -25,7 +25,7 @@
+ #ifndef _GFIRE_H
+ #define _GFIRE_H
+ 
+-#define PURPLE_PLUGINS
++#include <config.h>
+ 
+ #include <stddef.h>
+ #include <stdlib.h>
