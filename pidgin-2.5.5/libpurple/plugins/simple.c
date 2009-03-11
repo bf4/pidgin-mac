@@ -63,4 +63,4 @@ init_plugin(PurplePlugin *plugin)
 {
 }
 
-PURPLE_INIT_PLUGIN(simple, init_plugin, info)
+PURPLE_INIT_PLUGIN(simple_a, init_plugin, info)
