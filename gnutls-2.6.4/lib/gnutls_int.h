@@ -37,10 +37,10 @@
 #include <limits.h>
 #include <stdint.h>
 
-#ifdef NO_SSIZE_T
+/*#ifdef NO_SSIZE_T
 # define HAVE_SSIZE_T
 typedef int ssize_t;
-#endif
+#endif*/
 
 #include <sys/types.h>
 #include <unistd.h>

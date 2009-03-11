@@ -119,9 +119,9 @@ wrap_gcry_hash_init (gnutls_mac_algorithm_t algo, void **ctx)
     case GNUTLS_DIG_SHA256:
       err = gcry_md_open ((gcry_md_hd_t *) ctx, GCRY_MD_SHA256, flags);
       break;
-    case GNUTLS_DIG_SHA224:
-      err = gcry_md_open ((gcry_md_hd_t *) ctx, GCRY_MD_SHA224, flags);
-      break;
+    /*case GNUTLS_DIG_SHA224:
+      err = gcry_md_open ((gcry_md_hd_t *) ctx, GCRY_MD_SHA1, flags);
+      break;*/
     case GNUTLS_DIG_SHA384:
       err = gcry_md_open ((gcry_md_hd_t *) ctx, GCRY_MD_SHA384, flags);
       break;

@@ -1052,6 +1052,7 @@ cleanup:
 
 }
 
+#undef CLEAR_CERTS
 #define CLEAR_CERTS for(x=0;x<peer_certificate_list_size;x++) _gnutls_gcert_deinit(&peer_certificate_list[x])
 #ifdef ENABLE_OPENPGP
 static int
