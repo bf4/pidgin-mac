@@ -28,7 +28,7 @@
 #include "internal.h"
 #include "pidgin.h"
 
-#ifndef _WIN32
+#ifdef HAVE_X11
 # include <X11/Xlib.h>
 #else
 # ifdef small
@@ -41,6 +41,10 @@
 # ifdef _WIN32
 #  include "wspell.h"
 # endif
+#endif
+
+#ifdef __APPLE__
+#include <Carbon/Carbon.h>
 #endif
 
 #include <gdk/gdkkeysyms.h>
@@ -2912,7 +2916,26 @@ char *pidgin_make_pretty_arrows(const char *str)
 
 void pidgin_set_urgent(GtkWindow *window, gboolean urgent)
 {
-#if GTK_CHECK_VERSION(2,8,0)
+#if defined __APPLE__
+	// TODO: move that down and use gtk_window_set_urgency_hint after I have that code in gtk+
+	static NMRecPtr	notePtr = NULL;
+	if(urgent) {
+		if(notePtr == NULL) notePtr = (NMRecPtr) NewPtr ( sizeof ( NMRec ) );
+		OSErr		err;
+		
+		notePtr->qType = nmType; // standard queue type for NM
+		notePtr->nmMark = urgent; // 1;
+		notePtr->nmIcon = NULL;
+		notePtr->nmSound = NULL;  //(Handle) -1L; // use system alert snd
+		notePtr->nmStr = NULL; // (StringPtr) NewPtr ( sizeof ( Str255 ) ); BlockMoveData( notice, notePtr->nmStr, notice[0] + 1 );
+		notePtr->nmResp = NULL; // NewNMProc( MyResponse );
+		notePtr->nmRefCon = 0; // fFatal;
+		
+		err = NMInstall( notePtr );	
+	} else
+		if(notePtr) NMRemove( notePtr );
+	
+#elif GTK_CHECK_VERSION(2,8,0)
 	gtk_window_set_urgency_hint(window, urgent);
 #elif defined _WIN32
 	winpidgin_window_flash(window, urgent);
