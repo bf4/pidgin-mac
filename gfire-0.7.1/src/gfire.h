@@ -25,7 +25,7 @@
 #ifndef _GFIRE_H
 #define _GFIRE_H
 
-#define PURPLE_PLUGINS
+#include <config.h>
 
 #include <stddef.h>
 #include <stdlib.h>
