@@ -314,10 +314,11 @@ static struct docklet_ui_ops ui_ops =
 	docklet_x11_blank_icon,
 	docklet_x11_set_tooltip,
 #if GTK_CHECK_VERSION(2,2,0)
-	docklet_x11_position_menu
+	docklet_x11_position_menu,
 #else
-	NULL
+	NULL,
 #endif
+	NULL /* blink */
 };
 
 void
