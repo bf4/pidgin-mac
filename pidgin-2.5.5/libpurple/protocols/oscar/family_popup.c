@@ -25,7 +25,7 @@
  * open up an informative box on the client's screen.
  */
 
-#include <oscar.h>
+#include "oscar.h"
 
 /*
  * This is all there is to it.

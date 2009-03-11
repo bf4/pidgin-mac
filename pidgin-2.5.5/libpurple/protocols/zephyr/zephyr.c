@@ -26,7 +26,7 @@
  *
 
 */
-#include "libpurple/internal.h"
+#include <libpurple/internal.h>
 
 #include "accountopt.h"
 #include "debug.h"

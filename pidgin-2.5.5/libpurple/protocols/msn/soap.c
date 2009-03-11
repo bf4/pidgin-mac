@@ -34,7 +34,7 @@
 
 #include <glib.h>
 #if !defined(_WIN32) || !defined(_WINERROR_)
-#include <error.h>
+#include "error.h"
 #endif
 
 #define SOAP_TIMEOUT (5 * 60)
