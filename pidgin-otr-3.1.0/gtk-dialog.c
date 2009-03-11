@@ -940,8 +940,8 @@ static void add_whatsthis_more(GtkWidget *vbox, const char *whatsthismarkup,
     /* This is a deprecated API, but mucking with PangoFontDescriptions
      * is (a) complicated, and (b) not fully supported by older versions
      * of libpango, which some people may have. */
-    font = gtk_style_get_font(imh->style);
-    gtk_widget_set_size_request(scrl, -1, 6 * (font->ascent + font->descent));
+    //font = gtk_style_get_font(imh->style);
+    gtk_widget_set_size_request(scrl, -1, 6 * 10/* (font->ascent + font->descent)*/);
 }
 
 static GtkWidget *create_smp_dialog(const char *title,
