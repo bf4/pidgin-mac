@@ -1,0 +1,11 @@
+prefix=/Library/Frameworks/Gtk.framework/Versions/2/Resources
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Pango Cairo
+Description: Cairo rendering support for Pango
+Version: 1.22.2
+Requires: pango cairo 
+Libs: -L/Library/Frameworks/Gtk.framework/Versions/2/Resources/dev/lib -lGtk
+Cflags: -I/Library/Frameworks/Gtk.framework/Versions/2/Headers

@@ -1,0 +1,13 @@
+prefix=/Library/Frameworks/Gtk.framework/Versions/2/Resources
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+pango_module_version=1.6.0
+
+Name: Pango
+Description: Internationalized text handling
+Version: 1.22.2
+Requires: glib-2.0,gobject-2.0,gmodule-no-export-2.0
+Libs: -L/Library/Frameworks/Gtk.framework/Versions/2/Resources/dev/lib -lGtk
+Cflags: -I/Library/Frameworks/Gtk.framework/Versions/2/Headers

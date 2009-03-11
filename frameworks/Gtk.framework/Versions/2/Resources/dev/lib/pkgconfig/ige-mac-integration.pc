@@ -1,0 +1,11 @@
+prefix=/Library/Frameworks/Gtk.framework/Versions/2/Resources
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ige-mac-integration
+Description: Mac menu bar and dock integration for GTK+
+Requires: gtk+-2.0
+Version: 0.8.3
+Libs: -L/Library/Frameworks/Gtk.framework/Versions/2/Resources/dev/lib -lGtk
+Cflags: -I/Library/Frameworks/Gtk.framework/Versions/2/Headers

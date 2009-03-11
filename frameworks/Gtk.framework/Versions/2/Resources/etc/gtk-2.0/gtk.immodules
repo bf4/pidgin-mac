@@ -1,0 +1,36 @@
+# GTK+ Input Method Modules file
+# Automatically generated file, do not edit
+# Created by /Users/az/Source/create-gtk-fw/source/gtk+/gtk/.libs/gtk-query-immodules-2.0 from gtk+-2.14.4
+#
+# ModulesPath = /Users/az/.gtk-2.0/2.10.0/i386-apple-darwin9.5.0/immodules:/Users/az/.gtk-2.0/2.10.0/immodules:/Users/az/.gtk-2.0/i386-apple-darwin9.5.0/immodules:/Users/az/.gtk-2.0/immodules:/Library/Frameworks/Gtk.framework/Versions/2/Resources/lib/gtk-2.0/2.10.0/i386-apple-darwin9.5.0/immodules:/Users/az/Source/create-gtk-fw/inst/lib/gtk-2.0/2.10.0/immodules:/Users/az/Source/create-gtk-fw/inst/lib/gtk-2.0/i386-apple-darwin9.5.0/immodules:/Users/az/Source/create-gtk-fw/inst/lib/gtk-2.0/immodules
+#
+"/Library/Frameworks/Gtk.framework/Versions/2/Resources/lib/gtk-2.0/2.10.0/immodules/im-am-et.so" 
+"am_et" "Amharic (EZ+)" "gtk20" "/Users/az/Source/create-gtk-fw/inst/share/locale" "am" 
+
+"/Library/Frameworks/Gtk.framework/Versions/2/Resources/lib/gtk-2.0/2.10.0/immodules/im-cedilla.so" 
+"cedilla" "Cedilla" "gtk20" "/Users/az/Source/create-gtk-fw/inst/share/locale" "az:ca:co:fr:gv:oc:pt:sq:tr:wa" 
+
+"/Library/Frameworks/Gtk.framework/Versions/2/Resources/lib/gtk-2.0/2.10.0/immodules/im-cyrillic-translit.so" 
+"cyrillic_translit" "Cyrillic (Transliterated)" "gtk20" "/Users/az/Source/create-gtk-fw/inst/share/locale" "" 
+
+"/Library/Frameworks/Gtk.framework/Versions/2/Resources/lib/gtk-2.0/2.10.0/immodules/im-inuktitut.so" 
+"inuktitut" "Inuktitut (Transliterated)" "gtk20" "/Users/az/Source/create-gtk-fw/inst/share/locale" "iu" 
+
+"/Library/Frameworks/Gtk.framework/Versions/2/Resources/lib/gtk-2.0/2.10.0/immodules/im-ipa.so" 
+"ipa" "IPA" "gtk20" "/Users/az/Source/create-gtk-fw/inst/share/locale" "" 
+
+"/Library/Frameworks/Gtk.framework/Versions/2/Resources/lib/gtk-2.0/2.10.0/immodules/im-multipress.so" 
+"multipress" "Multipress" "gtk20" "" "" 
+
+"/Library/Frameworks/Gtk.framework/Versions/2/Resources/lib/gtk-2.0/2.10.0/immodules/im-thai.so" 
+"thai" "Thai-Lao" "gtk20" "/Users/az/Source/create-gtk-fw/inst/share/locale" "lo:th" 
+
+"/Library/Frameworks/Gtk.framework/Versions/2/Resources/lib/gtk-2.0/2.10.0/immodules/im-ti-er.so" 
+"ti_er" "Tigrigna-Eritrean (EZ+)" "gtk20" "/Users/az/Source/create-gtk-fw/inst/share/locale" "ti" 
+
+"/Library/Frameworks/Gtk.framework/Versions/2/Resources/lib/gtk-2.0/2.10.0/immodules/im-ti-et.so" 
+"ti_et" "Tigrigna-Ethiopian (EZ+)" "gtk20" "/Users/az/Source/create-gtk-fw/inst/share/locale" "ti" 
+
+"/Library/Frameworks/Gtk.framework/Versions/2/Resources/lib/gtk-2.0/2.10.0/immodules/im-viqr.so" 
+"viqr" "Vietnamese (VIQR)" "gtk20" "/Users/az/Source/create-gtk-fw/inst/share/locale" "vi" 
+
