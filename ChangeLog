@@ -1,0 +1,16 @@
+From first release (Pidgin 2.5.4 ver1) to current (Pidgin 2.5.5 ver2):
+- fixed some bugs in the Gtk+ framework to make
+  it working bundled in an app-bundle
+- statically linked in most official Pidgin plugins
+  (but extended Pidgin source that not all of them are
+  loaded by default)
+- build own Gtk+ framework from Gtk+ SVN trunk
+- MacOSX notify support (the icon jumps on a new message
+  or any other event; that is the pidgin_set_urgent
+  function)
+- OTR plugin builtin (based on Pidgin OTR 3.1.0)
+- added SSL support (builtin GnuTLS 2.6.4)
+- updated Pidgin source to 2.5.5
+- Facebookchat plugin builtin
+- Gfire plugin builtin
+
