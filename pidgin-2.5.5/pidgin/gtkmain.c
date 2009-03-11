@@ -448,6 +448,18 @@ startup_notification_complete(void)
 }
 #endif /* HAVE_STARTUP_NOTIFICATION */
 
+#ifdef __APPLE__
+#include <Carbon/Carbon.h>
+#endif
+
+#ifdef STATIC_PLUGIN_INIT
+STATIC_PLUGIN_INIT
+#else
+static void static_plugin_init(void);
+static void static_plugin_init(void) {}
+#endif
+
+
 /* FUCKING GET ME A TOWEL! */
 #ifdef _WIN32
 /* suppress gcc "no previous prototype" warning */
@@ -457,6 +469,24 @@ int pidgin_main(HINSTANCE hint, int argc, char *argv[])
 int main(int argc, char *argv[])
 #endif
 {
+#ifdef __APPLE__
+	// all the directories are coded as relative paths
+	char parentdir[MAXPATHLEN];
+	CFURLRef url = CFBundleCopyBundleURL(CFBundleGetMainBundle());
+	//CFURLRef url2 = CFURLCreateCopyDeletingLastPathComponent(0, url);
+	if (CFURLGetFileSystemRepresentation(url, true, (UInt8 *)parentdir, MAXPATHLEN)) {
+		assert ( chdir (parentdir) == 0 );   /* chdir to the binary app's parent */
+		//system("bash");
+	}
+	CFRelease(url);
+	//CFRelease(url2);
+	
+    /* This is passed if we are launched by double-clicking */
+    if ( argc >= 2 && strncmp (argv[1], "-psn", 4) == 0 ) {
+		argc = 1; // just ignore all the parameter
+	}	
+#endif
+	
 	gboolean opt_help = FALSE;
 	gboolean opt_login = FALSE;
 	gboolean opt_nologin = FALSE;
@@ -694,6 +724,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
+	gtk_rc_add_default_file(CONFDIR "/gtkrc");
 	search_path = g_build_filename(purple_user_dir(), "gtkrc-2.0", NULL);
 	gtk_rc_add_default_file(search_path);
 	g_free(search_path);
@@ -796,6 +827,8 @@ int main(int argc, char *argv[])
 	purple_set_blist(purple_blist_new());
 	purple_blist_load();
 
+	static_plugin_init();
+	
 	/* load plugins we had when we quit */
 	purple_plugins_load_saved(PIDGIN_PREFS_ROOT "/plugins/loaded");
 
