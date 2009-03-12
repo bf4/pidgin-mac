@@ -1,0 +1,11 @@
+prefix=/Library/Frameworks/Cairo.framework/Versions/1/Resources
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Pixman
+Description: The pixman library (version 1)
+Version: 0.13.2
+Cflags: -I/Library/Frameworks/Cairo.framework/Versions/1/Headers
+Libs: -L/Library/Frameworks/Cairo.framework/Versions/1/Resources/dev/lib -lCairo
+

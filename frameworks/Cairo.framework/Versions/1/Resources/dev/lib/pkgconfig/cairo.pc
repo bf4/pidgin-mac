@@ -1,0 +1,13 @@
+prefix=/Library/Frameworks/Cairo.framework/Versions/1/Resources
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: cairo
+Description: Multi-platform 2D graphics library
+Version: 1.8.4
+
+Requires.private:
+Libs: -L/Library/Frameworks/Cairo.framework/Versions/1/Resources/dev/lib -lCairo
+Libs.private:    -lz -lz     
+Cflags: -I/Library/Frameworks/Cairo.framework/Versions/1/Headers
