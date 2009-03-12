@@ -1,0 +1,11 @@
+prefix=/Library/Frameworks/GLib.framework/Versions/2/Resources
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: GIO unix specific APIs
+Description: unix specific headers for glib I/O library
+Version: 2.18.2
+Requires: gobject-2.0,gmodule-no-export-2.0,gio-2.0
+Libs: -L/Library/Frameworks/GLib.framework/Versions/2/Resources/dev/lib -lGLib
+Cflags: -I/Library/Frameworks/GLib.framework/Versions/2/Headers

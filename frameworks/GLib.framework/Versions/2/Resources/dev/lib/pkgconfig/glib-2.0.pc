@@ -1,0 +1,15 @@
+prefix=/Library/Frameworks/GLib.framework/Versions/2/Resources
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+glib_genmarshal=glib-genmarshal
+gobject_query=gobject-query
+glib_mkenums=glib-mkenums
+
+Name: GLib
+Description: C Utility Library
+Version: 2.18.2
+Libs: -L/Library/Frameworks/GLib.framework/Versions/2/Resources/dev/lib -lGLib
+Libs.private: -liconv
+Cflags: -I/Library/Frameworks/GLib.framework/Versions/2/Headers

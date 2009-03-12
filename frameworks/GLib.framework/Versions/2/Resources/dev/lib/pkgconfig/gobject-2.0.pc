@@ -1,0 +1,11 @@
+prefix=/Library/Frameworks/GLib.framework/Versions/2/Resources
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: GObject
+Description: GLib Type, Object, Parameter and Signal Library
+Requires: glib-2.0
+Version: 2.18.2
+Libs: -L/Library/Frameworks/GLib.framework/Versions/2/Resources/dev/lib -lGLib
+Cflags: -I/Library/Frameworks/GLib.framework/Versions/2/Headers
