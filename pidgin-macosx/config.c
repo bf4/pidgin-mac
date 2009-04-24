@@ -22,6 +22,7 @@ void static_proto_init(void) {
 	purple_init_msn_plugin();
 	purple_init_jabber_plugin();
 	purple_init_irc_plugin();
+	purple_init_facebook_plugin();
 }
 
 void static_plugin_init(void) {
@@ -56,7 +57,6 @@ void static_plugin_init(void) {
 	purple_init_timestamp_plugin__optload(0);
 	
 	purple_init_otr_plugin();
-	purple_init_facebook_plugin();
 	purple_init_gfire_plugin();
 }
 

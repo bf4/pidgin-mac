@@ -55,6 +55,7 @@
 
 #ifndef PURPLE_PLUGINS
 #	define PURPLE_PLUGINS
+#	define PURPLE_STATIC_PRPL
 #endif
 
 #include "accountopt.h"

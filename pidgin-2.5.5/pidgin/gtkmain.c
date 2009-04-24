@@ -470,6 +470,7 @@ int main(int argc, char *argv[])
 #endif
 {
 #ifdef __APPLE__
+#include <sys/param.h>
 	// all the directories are coded as relative paths
 	char parentdir[MAXPATHLEN];
 	CFURLRef url = CFBundleCopyBundleURL(CFBundleGetMainBundle());
