@@ -58,22 +58,21 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 258389935;
-			PBXWorkspaceStateSaveDate = 258389935;
+			PBXPerProjectTemplateStateSaveDate = 262378545;
+			PBXWorkspaceStateSaveDate = 262378545;
 		};
 		perUserProjectItems = {
+			2348B05C0FA4A76800FB5052 /* PBXTextBookmark */ = 2348B05C0FA4A76800FB5052 /* PBXTextBookmark */;
 			23B5E3160F66C0000024AEEE /* PBXTextBookmark */ = 23B5E3160F66C0000024AEEE /* PBXTextBookmark */;
 			23B5E3190F66C0000024AEEE /* PBXTextBookmark */ = 23B5E3190F66C0000024AEEE /* PBXTextBookmark */;
 			23B5E31B0F66C0000024AEEE /* PBXTextBookmark */ = 23B5E31B0F66C0000024AEEE /* PBXTextBookmark */;
 			23B5E31C0F66C0000024AEEE /* PBXTextBookmark */ = 23B5E31C0F66C0000024AEEE /* PBXTextBookmark */;
 			23B5E31D0F66C0000024AEEE /* PBXTextBookmark */ = 23B5E31D0F66C0000024AEEE /* PBXTextBookmark */;
-			23B5E31E0F66C0000024AEEE /* PBXTextBookmark */ = 23B5E31E0F66C0000024AEEE /* PBXTextBookmark */;
 			23B5E31F0F66C0000024AEEE /* PBXTextBookmark */ = 23B5E31F0F66C0000024AEEE /* PBXTextBookmark */;
 			23B5E3200F66C0000024AEEE /* PBXTextBookmark */ = 23B5E3200F66C0000024AEEE /* PBXTextBookmark */;
 			23B5E33F0F66C1E70024AEEE /* PBXTextBookmark */ = 23B5E33F0F66C1E70024AEEE /* PBXTextBookmark */;
 			23B5E3400F66C1E70024AEEE /* PBXTextBookmark */ = 23B5E3400F66C1E70024AEEE /* PBXTextBookmark */;
 			23B5E3410F66C1E70024AEEE /* PBXTextBookmark */ = 23B5E3410F66C1E70024AEEE /* PBXTextBookmark */;
-			23B5E3430F66C1E70024AEEE /* PBXTextBookmark */ = 23B5E3430F66C1E70024AEEE /* PBXTextBookmark */;
 			23B5E3440F66C1E70024AEEE /* PBXTextBookmark */ = 23B5E3440F66C1E70024AEEE /* PBXTextBookmark */;
 			23B5E3450F66C1E70024AEEE /* PBXTextBookmark */ = 23B5E3450F66C1E70024AEEE /* PBXTextBookmark */;
 			23B5E3610F66C4A50024AEEE /* PBXTextBookmark */ = 23B5E3610F66C4A50024AEEE /* PBXTextBookmark */;
@@ -187,28 +186,18 @@
 			23B5E8300F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8300F66E0A40024AEEE /* PBXTextBookmark */;
 			23B5E8320F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8320F66E0A40024AEEE /* PBXTextBookmark */;
 			23B5E8330F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8330F66E0A40024AEEE /* PBXTextBookmark */;
-			23B5E8340F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8340F66E0A40024AEEE /* PBXTextBookmark */;
 			23B5E8350F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8350F66E0A40024AEEE /* PBXTextBookmark */;
 			23B5E8360F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8360F66E0A40024AEEE /* PBXTextBookmark */;
 			23B5E8370F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8370F66E0A40024AEEE /* PBXTextBookmark */;
 			23B5E8380F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8380F66E0A40024AEEE /* PBXTextBookmark */;
 			23B5E8390F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8390F66E0A40024AEEE /* PBXTextBookmark */;
-			23B5E83A0F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E83A0F66E0A40024AEEE /* PBXTextBookmark */;
-			23B5E83B0F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E83B0F66E0A40024AEEE /* PBXTextBookmark */;
-			23B5E83C0F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E83C0F66E0A40024AEEE /* PBXTextBookmark */;
 			23B5E83D0F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E83D0F66E0A40024AEEE /* PBXTextBookmark */;
-			23B5E83E0F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E83E0F66E0A40024AEEE /* PBXTextBookmark */;
-			23B5E83F0F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E83F0F66E0A40024AEEE /* PBXTextBookmark */;
-			23B5E8400F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8400F66E0A40024AEEE /* PBXTextBookmark */;
 			23B5E8410F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8410F66E0A40024AEEE /* PBXTextBookmark */;
-			23B5E8420F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8420F66E0A40024AEEE /* PBXTextBookmark */;
 			23B5E8430F66E0A40024AEEE /* PBXTextBookmark */ = 23B5E8430F66E0A40024AEEE /* PBXTextBookmark */;
 			23B5E8640F66EBF20024AEEE /* PBXTextBookmark */ = 23B5E8640F66EBF20024AEEE /* PBXTextBookmark */;
 			23B5E8650F66EBF20024AEEE /* PBXTextBookmark */ = 23B5E8650F66EBF20024AEEE /* PBXTextBookmark */;
 			23B5E8660F66EBF20024AEEE /* PBXTextBookmark */ = 23B5E8660F66EBF20024AEEE /* PBXTextBookmark */;
-			23B5E8670F66EBF20024AEEE /* PBXTextBookmark */ = 23B5E8670F66EBF20024AEEE /* PBXTextBookmark */;
 			23B5E8740F66EE140024AEEE /* PBXTextBookmark */ = 23B5E8740F66EE140024AEEE /* PBXTextBookmark */;
-			23B5E8760F66EE140024AEEE /* PBXTextBookmark */ = 23B5E8760F66EE140024AEEE /* PBXTextBookmark */;
 			23B5E8810F66F0630024AEEE /* PBXTextBookmark */ = 23B5E8810F66F0630024AEEE /* PBXTextBookmark */;
 			23B5E8830F66F0630024AEEE /* PBXTextBookmark */ = 23B5E8830F66F0630024AEEE /* PBXTextBookmark */;
 			23B5E88D0F66F4430024AEEE /* PBXTextBookmark */ = 23B5E88D0F66F4430024AEEE /* PBXTextBookmark */;
@@ -217,7 +206,6 @@
 			23B5E8BE0F6705020024AEEE /* PBXTextBookmark */ = 23B5E8BE0F6705020024AEEE /* PBXTextBookmark */;
 			23B5E8C20F6705650024AEEE /* PBXTextBookmark */ = 23B5E8C20F6705650024AEEE /* PBXTextBookmark */;
 			23B5E8C40F6705650024AEEE /* PBXTextBookmark */ = 23B5E8C40F6705650024AEEE /* PBXTextBookmark */;
-			23B5E8C60F6705650024AEEE /* PBXTextBookmark */ = 23B5E8C60F6705650024AEEE /* PBXTextBookmark */;
 			23B5E8C70F6705650024AEEE /* PBXTextBookmark */ = 23B5E8C70F6705650024AEEE /* PBXTextBookmark */;
 			23B5E8C80F6705650024AEEE /* PBXTextBookmark */ = 23B5E8C80F6705650024AEEE /* PBXTextBookmark */;
 			23B5E8CB0F67065D0024AEEE /* PBXTextBookmark */ = 23B5E8CB0F67065D0024AEEE /* PBXTextBookmark */;
@@ -240,6 +228,22 @@
 			sepNavSelRange = "{21635, 19}";
 			sepNavVisRange = "{21113, 542}";
 		};
+	};
+	2348B05C0FA4A76800FB5052 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2348B05D0FA4A76800FB5052 /* byteswap.h */;
+		name = "byteswap.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 910;
+		vrLoc = 0;
+	};
+	2348B05D0FA4A76800FB5052 /* byteswap.h */ = {
+		isa = PBXFileReference;
+		name = byteswap.h;
+		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lib/byteswap.h";
+		sourceTree = "<absolute>";
 	};
 	23B5E2CD0F66B7AD0024AEEE /* Pidgin */ = {
 		isa = PBXExecutable;
@@ -343,16 +347,6 @@
 		vrLen = 683;
 		vrLoc = 10947;
 	};
-	23B5E31E0F66C0000024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23B5E2F60F66BBA20024AEEE /* config.c */;
-		name = "config.c: 59";
-		rLen = 0;
-		rLoc = 1629;
-		rType = 0;
-		vrLen = 254;
-		vrLoc = 0;
-	};
 	23B5E31F0F66C0000024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 23EACC5D0F4A3E8800CA55CF /* post_build.sh */;
@@ -410,16 +404,6 @@
 		vrLen = 688;
 		vrLoc = 0;
 	};
-	23B5E3430F66C1E70024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23EACC5D0F4A3E8800CA55CF /* post_build.sh */;
-		name = "post_build.sh: 3";
-		rLen = 0;
-		rLoc = 39;
-		rType = 0;
-		vrLen = 495;
-		vrLoc = 0;
-	};
 	23B5E3440F66C1E70024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 23D0006A0F40900300D3DF4B /* tcl.c */;
@@ -446,11 +430,6 @@
 		name = gnutls.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/pidgin-macosx/../gnutls-2.6.4/includes/gnutls/gnutls.h";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {633, 19628}}";
-			sepNavSelRange = "{1649, 0}";
-			sepNavVisRange = "{1547, 327}";
-		};
 	};
 	23B5E3610F66C4A50024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -780,6 +759,7 @@
 	};
 	23B5E4E60F66C7530024AEEE /* gnutls_extra.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = gnutls_extra.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/libextra/gnutls_extra.c";
 		sourceTree = "<absolute>";
@@ -796,6 +776,7 @@
 	};
 	23B5E4E80F66C7530024AEEE /* gnutls_ia.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = gnutls_ia.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/libextra/gnutls_ia.c";
 		sourceTree = "<absolute>";
@@ -842,6 +823,7 @@
 	};
 	23B5E4EF0F66C7530024AEEE /* gnutls_extra.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = gnutls_extra.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/libextra/gnutls_extra.c";
 		sourceTree = "<absolute>";
@@ -858,6 +840,7 @@
 	};
 	23B5E4F10F66C7530024AEEE /* gnutls_ia.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = gnutls_ia.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/libextra/gnutls_ia.c";
 		sourceTree = "<absolute>";
@@ -868,11 +851,6 @@
 		name = gnutls_openssl.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/libextra/gnutls_openssl.c";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {468, 14798}}";
-			sepNavSelRange = "{1618, 0}";
-			sepNavVisRange = "{1443, 258}";
-		};
 	};
 	23B5E52C0F66CB130024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1026,6 +1004,7 @@
 	};
 	23B5E6AC0F66D3C70024AEEE /* float.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = float.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/float.in.h";
 		sourceTree = "<absolute>";
@@ -1042,6 +1021,7 @@
 	};
 	23B5E6AE0F66D3C70024AEEE /* read-file.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = "read-file.h";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/read-file.h";
 		sourceTree = "<absolute>";
@@ -1058,6 +1038,7 @@
 	};
 	23B5E6B00F66D3C70024AEEE /* read-file.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = "read-file.c";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/read-file.c";
 		sourceTree = "<absolute>";
@@ -1074,6 +1055,7 @@
 	};
 	23B5E6B20F66D3C70024AEEE /* c-ctype.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = "c-ctype.c";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/c-ctype.c";
 		sourceTree = "<absolute>";
@@ -1090,6 +1072,7 @@
 	};
 	23B5E6B80F66D3C70024AEEE /* memchr.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = memchr.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/memchr.c";
 		sourceTree = "<absolute>";
@@ -1106,6 +1089,7 @@
 	};
 	23B5E6BA0F66D3C70024AEEE /* gettext.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = gettext.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/gettext.h";
 		sourceTree = "<absolute>";
@@ -1122,6 +1106,7 @@
 	};
 	23B5E6BC0F66D3C70024AEEE /* byteswap.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = byteswap.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/byteswap.in.h";
 		sourceTree = "<absolute>";
@@ -1138,6 +1123,7 @@
 	};
 	23B5E6BE0F66D3C70024AEEE /* wchar.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = wchar.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/wchar.in.h";
 		sourceTree = "<absolute>";
@@ -1154,6 +1140,7 @@
 	};
 	23B5E6C80F66D3C70024AEEE /* time_r.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = time_r.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/time_r.c";
 		sourceTree = "<absolute>";
@@ -1170,6 +1157,7 @@
 	};
 	23B5E6CA0F66D3C70024AEEE /* time.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = time.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/time.in.h";
 		sourceTree = "<absolute>";
@@ -1186,6 +1174,7 @@
 	};
 	23B5E6CC0F66D3C70024AEEE /* sys_stat.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = sys_stat.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/sys_stat.in.h";
 		sourceTree = "<absolute>";
@@ -1202,6 +1191,7 @@
 	};
 	23B5E6CE0F66D3C70024AEEE /* sys_socket.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = sys_socket.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/sys_socket.in.h";
 		sourceTree = "<absolute>";
@@ -1218,6 +1208,7 @@
 	};
 	23B5E6D00F66D3C70024AEEE /* strverscmp.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = strverscmp.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/strverscmp.c";
 		sourceTree = "<absolute>";
@@ -1234,6 +1225,7 @@
 	};
 	23B5E6D20F66D3C70024AEEE /* strncasecmp.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = strncasecmp.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/strncasecmp.c";
 		sourceTree = "<absolute>";
@@ -1250,6 +1242,7 @@
 	};
 	23B5E6D40F66D3C70024AEEE /* strings.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = strings.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/strings.in.h";
 		sourceTree = "<absolute>";
@@ -1266,6 +1259,7 @@
 	};
 	23B5E6D60F66D3C70024AEEE /* string.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = string.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/string.in.h";
 		sourceTree = "<absolute>";
@@ -1282,6 +1276,7 @@
 	};
 	23B5E6D80F66D3C70024AEEE /* strcasecmp.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = strcasecmp.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/strcasecmp.c";
 		sourceTree = "<absolute>";
@@ -1298,6 +1293,7 @@
 	};
 	23B5E6DA0F66D3C70024AEEE /* str-two-way.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = "str-two-way.h";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/str-two-way.h";
 		sourceTree = "<absolute>";
@@ -1314,6 +1310,7 @@
 	};
 	23B5E6DC0F66D3C70024AEEE /* stdlib.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = stdlib.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/stdlib.in.h";
 		sourceTree = "<absolute>";
@@ -1330,6 +1327,7 @@
 	};
 	23B5E6DE0F66D3C70024AEEE /* stdio.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = stdio.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/stdio.in.h";
 		sourceTree = "<absolute>";
@@ -1346,6 +1344,7 @@
 	};
 	23B5E6E00F66D3C70024AEEE /* stdio-impl.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = "stdio-impl.h";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/stdio-impl.h";
 		sourceTree = "<absolute>";
@@ -1362,6 +1361,7 @@
 	};
 	23B5E6E20F66D3C70024AEEE /* stdint.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = stdint.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/stdint.in.h";
 		sourceTree = "<absolute>";
@@ -1378,6 +1378,7 @@
 	};
 	23B5E6E40F66D3C70024AEEE /* stdbool.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = stdbool.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/stdbool.in.h";
 		sourceTree = "<absolute>";
@@ -1394,6 +1395,7 @@
 	};
 	23B5E6EA0F66D3C70024AEEE /* c-ctype.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = "c-ctype.h";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/c-ctype.h";
 		sourceTree = "<absolute>";
@@ -1410,6 +1412,7 @@
 	};
 	23B5E6EC0F66D3C70024AEEE /* memcmp.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = memcmp.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/memcmp.c";
 		sourceTree = "<absolute>";
@@ -1426,6 +1429,7 @@
 	};
 	23B5E6EE0F66D3C70024AEEE /* printf-args.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = "printf-args.h";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/printf-args.h";
 		sourceTree = "<absolute>";
@@ -1442,6 +1446,7 @@
 	};
 	23B5E6F00F66D3C70024AEEE /* lseek.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = lseek.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/lseek.c";
 		sourceTree = "<absolute>";
@@ -1458,6 +1463,7 @@
 	};
 	23B5E6F20F66D3C70024AEEE /* xsize.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = xsize.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/xsize.h";
 		sourceTree = "<absolute>";
@@ -1474,6 +1480,7 @@
 	};
 	23B5E6F40F66D3C70024AEEE /* size_max.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = size_max.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/size_max.h";
 		sourceTree = "<absolute>";
@@ -1490,6 +1497,7 @@
 	};
 	23B5E6F60F66D3C70024AEEE /* realloc.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = realloc.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/realloc.c";
 		sourceTree = "<absolute>";
@@ -1636,6 +1644,7 @@
 	};
 	23B5E7060F66D3C70024AEEE /* float.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = float.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/float.in.h";
 		sourceTree = "<absolute>";
@@ -1652,6 +1661,7 @@
 	};
 	23B5E7080F66D3C70024AEEE /* read-file.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = "read-file.h";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/read-file.h";
 		sourceTree = "<absolute>";
@@ -1668,6 +1678,7 @@
 	};
 	23B5E70A0F66D3C70024AEEE /* read-file.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = "read-file.c";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/read-file.c";
 		sourceTree = "<absolute>";
@@ -1684,6 +1695,7 @@
 	};
 	23B5E70C0F66D3C70024AEEE /* c-ctype.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = "c-ctype.c";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/c-ctype.c";
 		sourceTree = "<absolute>";
@@ -1700,6 +1712,7 @@
 	};
 	23B5E7120F66D3C70024AEEE /* memchr.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = memchr.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/memchr.c";
 		sourceTree = "<absolute>";
@@ -1716,6 +1729,7 @@
 	};
 	23B5E7140F66D3C70024AEEE /* gettext.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = gettext.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/gettext.h";
 		sourceTree = "<absolute>";
@@ -1732,6 +1746,7 @@
 	};
 	23B5E7160F66D3C70024AEEE /* byteswap.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = byteswap.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/byteswap.in.h";
 		sourceTree = "<absolute>";
@@ -1748,6 +1763,7 @@
 	};
 	23B5E7180F66D3C70024AEEE /* wchar.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = wchar.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/wchar.in.h";
 		sourceTree = "<absolute>";
@@ -1764,6 +1780,7 @@
 	};
 	23B5E7220F66D3C70024AEEE /* time_r.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = time_r.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/time_r.c";
 		sourceTree = "<absolute>";
@@ -1780,6 +1797,7 @@
 	};
 	23B5E7240F66D3C70024AEEE /* time.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = time.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/time.in.h";
 		sourceTree = "<absolute>";
@@ -1796,6 +1814,7 @@
 	};
 	23B5E7260F66D3C70024AEEE /* sys_stat.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = sys_stat.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/sys_stat.in.h";
 		sourceTree = "<absolute>";
@@ -1812,6 +1831,7 @@
 	};
 	23B5E7280F66D3C70024AEEE /* sys_socket.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = sys_socket.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/sys_socket.in.h";
 		sourceTree = "<absolute>";
@@ -1828,6 +1848,7 @@
 	};
 	23B5E72A0F66D3C70024AEEE /* strverscmp.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = strverscmp.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/strverscmp.c";
 		sourceTree = "<absolute>";
@@ -1844,6 +1865,7 @@
 	};
 	23B5E72C0F66D3C70024AEEE /* strncasecmp.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = strncasecmp.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/strncasecmp.c";
 		sourceTree = "<absolute>";
@@ -1860,6 +1882,7 @@
 	};
 	23B5E72E0F66D3C70024AEEE /* strings.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = strings.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/strings.in.h";
 		sourceTree = "<absolute>";
@@ -1876,6 +1899,7 @@
 	};
 	23B5E7300F66D3C70024AEEE /* string.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = string.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/string.in.h";
 		sourceTree = "<absolute>";
@@ -1892,6 +1916,7 @@
 	};
 	23B5E7320F66D3C70024AEEE /* strcasecmp.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = strcasecmp.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/strcasecmp.c";
 		sourceTree = "<absolute>";
@@ -1908,6 +1933,7 @@
 	};
 	23B5E7340F66D3C70024AEEE /* str-two-way.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = "str-two-way.h";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/str-two-way.h";
 		sourceTree = "<absolute>";
@@ -1924,6 +1950,7 @@
 	};
 	23B5E7360F66D3C70024AEEE /* stdlib.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = stdlib.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/stdlib.in.h";
 		sourceTree = "<absolute>";
@@ -1940,6 +1967,7 @@
 	};
 	23B5E7380F66D3C70024AEEE /* stdio.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = stdio.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/stdio.in.h";
 		sourceTree = "<absolute>";
@@ -1956,6 +1984,7 @@
 	};
 	23B5E73A0F66D3C70024AEEE /* stdio-impl.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = "stdio-impl.h";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/stdio-impl.h";
 		sourceTree = "<absolute>";
@@ -1972,6 +2001,7 @@
 	};
 	23B5E73C0F66D3C70024AEEE /* stdint.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = stdint.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/stdint.in.h";
 		sourceTree = "<absolute>";
@@ -1988,6 +2018,7 @@
 	};
 	23B5E73E0F66D3C70024AEEE /* stdbool.in.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = stdbool.in.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/stdbool.in.h";
 		sourceTree = "<absolute>";
@@ -2004,6 +2035,7 @@
 	};
 	23B5E7440F66D3C70024AEEE /* c-ctype.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = "c-ctype.h";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/c-ctype.h";
 		sourceTree = "<absolute>";
@@ -2020,14 +2052,10 @@
 	};
 	23B5E7460F66D3C70024AEEE /* memcmp.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = memcmp.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/memcmp.c";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {776, 4956}}";
-			sepNavSelRange = "{1116, 15}";
-			sepNavVisRange = "{1013, 355}";
-		};
 	};
 	23B5E7470F66D3C70024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2041,6 +2069,7 @@
 	};
 	23B5E7480F66D3C70024AEEE /* printf-args.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = "printf-args.h";
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/printf-args.h";
 		sourceTree = "<absolute>";
@@ -2057,6 +2086,7 @@
 	};
 	23B5E74A0F66D3C70024AEEE /* lseek.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = lseek.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/lseek.c";
 		sourceTree = "<absolute>";
@@ -2073,6 +2103,7 @@
 	};
 	23B5E74C0F66D3C70024AEEE /* xsize.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = xsize.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/xsize.h";
 		sourceTree = "<absolute>";
@@ -2089,6 +2120,7 @@
 	};
 	23B5E74E0F66D3C70024AEEE /* size_max.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = size_max.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/size_max.h";
 		sourceTree = "<absolute>";
@@ -2105,6 +2137,7 @@
 	};
 	23B5E7500F66D3C70024AEEE /* realloc.c */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
 		name = realloc.c;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lgl/realloc.c";
 		sourceTree = "<absolute>";
@@ -2359,16 +2392,6 @@
 		vrLen = 504;
 		vrLoc = 7045;
 	};
-	23B5E8340F66E0A40024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23B5E7F50F66D8820024AEEE /* libfacebook.c */;
-		name = "libfacebook.c: 765";
-		rLen = 18;
-		rLoc = 23322;
-		rType = 0;
-		vrLen = 587;
-		vrLoc = 620;
-	};
 	23B5E8350F66E0A40024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 23B5E7F60F66D8820024AEEE /* libfacebook.h */;
@@ -2419,36 +2442,6 @@
 		vrLen = 467;
 		vrLoc = 692;
 	};
-	23B5E83A0F66E0A40024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23B5E7EA0F66D8820024AEEE /* fb_connection.h */;
-		name = "fb_connection.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 316;
-		vrLoc = 765;
-	};
-	23B5E83B0F66E0A40024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23B5E7F50F66D8820024AEEE /* libfacebook.c */;
-		name = "libfacebook.c: 765";
-		rLen = 18;
-		rLoc = 23322;
-		rType = 0;
-		vrLen = 587;
-		vrLoc = 620;
-	};
-	23B5E83C0F66E0A40024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23B5E7F60F66D8820024AEEE /* libfacebook.h */;
-		name = "libfacebook.h: 33";
-		rLen = 0;
-		rLoc = 1000;
-		rType = 0;
-		vrLen = 331;
-		vrLoc = 2877;
-	};
 	23B5E83D0F66E0A40024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 23B5E7F40F66D8820024AEEE /* fb_search.h */;
@@ -2459,36 +2452,6 @@
 		vrLen = 769;
 		vrLoc = 0;
 	};
-	23B5E83E0F66E0A40024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23B5E7F50F66D8820024AEEE /* libfacebook.c */;
-		name = "libfacebook.c: 765";
-		rLen = 18;
-		rLoc = 23322;
-		rType = 0;
-		vrLen = 383;
-		vrLoc = 22988;
-	};
-	23B5E83F0F66E0A40024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23D0FFEA0F40900100D3DF4B /* plugin.h */;
-		name = "plugin.h: 206";
-		rLen = 18;
-		rLoc = 6075;
-		rType = 0;
-		vrLen = 753;
-		vrLoc = 5983;
-	};
-	23B5E8400F66E0A40024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23B5E7F60F66D8820024AEEE /* libfacebook.h */;
-		name = "libfacebook.h: 26";
-		rLen = 0;
-		rLoc = 874;
-		rType = 0;
-		vrLen = 493;
-		vrLoc = 507;
-	};
 	23B5E8410F66E0A40024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 23B5E81C0F66DED10024AEEE /* gfire.c */;
@@ -2498,16 +2461,6 @@
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 42988;
-	};
-	23B5E8420F66E0A40024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23D0FFEA0F40900100D3DF4B /* plugin.h */;
-		name = "plugin.h: 209";
-		rLen = 64;
-		rLoc = 6201;
-		rType = 0;
-		vrLen = 718;
-		vrLoc = 6607;
 	};
 	23B5E8430F66E0A40024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2549,27 +2502,7 @@
 		vrLen = 416;
 		vrLoc = 2081;
 	};
-	23B5E8670F66EBF20024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2309811A0F4B966C008E6C7F /* config.h */;
-		name = "config.h: 359";
-		rLen = 148;
-		rLoc = 10002;
-		rType = 0;
-		vrLen = 377;
-		vrLoc = 11266;
-	};
 	23B5E8740F66EE140024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23B5E2F60F66BBA20024AEEE /* config.c */;
-		name = "config.c: 62";
-		rLen = 0;
-		rLoc = 1629;
-		rType = 0;
-		vrLen = 254;
-		vrLoc = 0;
-	};
-	23B5E8760F66EE140024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 23B5E2F60F66BBA20024AEEE /* config.c */;
 		name = "config.c: 62";
@@ -2635,11 +2568,6 @@
 		name = byteswap.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lib/byteswap.h";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {566, 644}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 910}";
-		};
 	};
 	23B5E8BE0F6705020024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2663,6 +2591,7 @@
 	};
 	23B5E8C30F6705650024AEEE /* byteswap.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = byteswap.h;
 		path = /gentoo/usr/include/byteswap.h;
 		sourceTree = "<absolute>";
@@ -2679,19 +2608,10 @@
 	};
 	23B5E8C50F6705650024AEEE /* byteswap.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = byteswap.h;
 		path = "/Users/az/Source/create-gtk-fw/source/gettext-0.16/gettext-tools/gnulib-lib/byteswap.h";
 		sourceTree = "<absolute>";
-	};
-	23B5E8C60F6705650024AEEE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 23B5E8BD0F6705020024AEEE /* byteswap.h */;
-		name = "byteswap.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 910;
-		vrLoc = 0;
 	};
 	23B5E8C70F6705650024AEEE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2715,6 +2635,7 @@
 	};
 	23B5E8C90F6705650024AEEE /* byteswap.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = byteswap.h;
 		path = "/Users/az/Source/create-gtk-fw/source/gettext-0.16/gettext-tools/gnulib-lib/byteswap.h";
 		sourceTree = "<absolute>";
@@ -2731,9 +2652,15 @@
 	};
 	23B5E8CC0F67065D0024AEEE /* byteswap.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = byteswap.h;
 		path = "/Users/az/Programmierung/pidgin-macosx/gnutls-2.6.4/lib/byteswap.h";
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {566, 630}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 910}";
+		};
 	};
 	23D000620F40900300D3DF4B /* ssl.c */ = {
 		uiCtxt = {

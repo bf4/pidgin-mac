@@ -269,9 +269,6 @@
 								<string>20286C29FDCF999611CA2CEA</string>
 								<string>20286C2AFDCF999611CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
-								<string>23B5E3140F66C0000024AEEE</string>
-								<string>23B5E3150F66C0000024AEEE</string>
-								<string>23B5E52B0F66CB130024AEEE</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
@@ -331,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>23B5E8CB0F67065D0024AEEE</string>
+										<string>2348B05C0FA4A76800FB5052</string>
 										<key>history</key>
 										<array>
 											<string>23B5E3160F66C0000024AEEE</string>
@@ -412,17 +409,15 @@
 											<string>23B5E8BB0F6705020024AEEE</string>
 											<string>23B5E8C20F6705650024AEEE</string>
 											<string>23B5E8C40F6705650024AEEE</string>
-											<string>23B5E8C60F6705650024AEEE</string>
+											<string>23B5E8CB0F67065D0024AEEE</string>
 										</array>
 										<key>prevStack</key>
 										<array>
 											<string>23B5E31B0F66C0000024AEEE</string>
 											<string>23B5E31C0F66C0000024AEEE</string>
 											<string>23B5E31D0F66C0000024AEEE</string>
-											<string>23B5E31E0F66C0000024AEEE</string>
 											<string>23B5E31F0F66C0000024AEEE</string>
 											<string>23B5E3200F66C0000024AEEE</string>
-											<string>23B5E3430F66C1E70024AEEE</string>
 											<string>23B5E3440F66C1E70024AEEE</string>
 											<string>23B5E3450F66C1E70024AEEE</string>
 											<string>23B5E3630F66C4A50024AEEE</string>
@@ -471,25 +466,15 @@
 											<string>23B5E8020F66D89A0024AEEE</string>
 											<string>23B5E8320F66E0A40024AEEE</string>
 											<string>23B5E8330F66E0A40024AEEE</string>
-											<string>23B5E8340F66E0A40024AEEE</string>
 											<string>23B5E8350F66E0A40024AEEE</string>
 											<string>23B5E8360F66E0A40024AEEE</string>
 											<string>23B5E8370F66E0A40024AEEE</string>
 											<string>23B5E8380F66E0A40024AEEE</string>
 											<string>23B5E8390F66E0A40024AEEE</string>
-											<string>23B5E83A0F66E0A40024AEEE</string>
-											<string>23B5E83B0F66E0A40024AEEE</string>
-											<string>23B5E83C0F66E0A40024AEEE</string>
 											<string>23B5E83D0F66E0A40024AEEE</string>
-											<string>23B5E83E0F66E0A40024AEEE</string>
-											<string>23B5E83F0F66E0A40024AEEE</string>
-											<string>23B5E8400F66E0A40024AEEE</string>
 											<string>23B5E8410F66E0A40024AEEE</string>
-											<string>23B5E8420F66E0A40024AEEE</string>
 											<string>23B5E8430F66E0A40024AEEE</string>
 											<string>23B5E8660F66EBF20024AEEE</string>
-											<string>23B5E8670F66EBF20024AEEE</string>
-											<string>23B5E8760F66EE140024AEEE</string>
 											<string>23B5E8830F66F0630024AEEE</string>
 											<string>23B5E88F0F66F4430024AEEE</string>
 											<string>23B5E8BE0F6705020024AEEE</string>
@@ -552,9 +537,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>23B5E2DB0F66B7BC0024AEEE</string>
+				<string>2348B05A0FA3943800FB5052</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>23B5E2DC0F66B7BC0024AEEE</string>
+				<string>2348B05B0FA3943800FB5052</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -690,12 +675,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>23B5E7650F66D5410024AEEE</string>
-		<string>23B5E7660F66D5410024AEEE</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>23B5E2EE0F66BB4C0024AEEE</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/az/Programmierung/pidgin-macosx/pidgin-macosx/pidgin-macosx.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
