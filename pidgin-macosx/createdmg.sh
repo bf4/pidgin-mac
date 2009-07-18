@@ -47,4 +47,4 @@ mkdmg() {
 
 cd "$(dirname "$0")"
 rsync -a --delete build/Debug/Pidgin.app dmg/
-mkdmg Pidgin "2.5.5" dmg
+mkdmg Pidgin "$(readlink ../pidgin-src | tr -d "pidgin-")" dmg
