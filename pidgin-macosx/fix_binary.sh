@@ -45,7 +45,7 @@ fix_bin() {
 	# we need to be in that dir I think
 	cd "$(dirname "$1")"
 	app="$(basename "$1")"
-	
+
 	bin="${app/.app/}"
 	
 	echo ">>> building file list"
@@ -108,10 +108,10 @@ fi
 cd build
 
 for rel in *; do
-	cd $rel
-	[ -e *.app ] && \
+	cd "$rel"
+	[ -d *.app ] && \
 	for app in *.app; do
-		fix_app "$app"
+		fix_bin "$app"
 	done
 	cd ..
 done

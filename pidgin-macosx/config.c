@@ -57,7 +57,8 @@ void static_plugin_init(void) {
 	//purple_init_interval_plugin__optload(0);
 	purple_init_timestamp_plugin__optload(0);
 	
-	purple_init_otr_plugin__optload(0);
+	purple_init_otr_plugin();
 	purple_init_gfire_plugin();
+	purple_init_pidgin_twitter_plugin();
 }
 

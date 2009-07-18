@@ -41,6 +41,7 @@
 		239A3CF6101168630070329A /* twitter_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CE5101168630070329A /* twitter_api.c */; };
 		239A3CF7101168630070329A /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CE7101168630070329A /* util.c */; };
 		239A3CFA101168C90070329A /* ssl-gnutls.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CF9101168C90070329A /* ssl-gnutls.c */; };
+		239A3D6E1011743C0070329A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239A3D6D1011743C0070329A /* IOKit.framework */; };
 		23B5E2F70F66BBA20024AEEE /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E2F60F66BBA20024AEEE /* config.c */; };
 		23B5E43D0F66C4BC0024AEEE /* auth_psk_passwd.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E3670F66C4BC0024AEEE /* auth_psk_passwd.c */; };
 		23B5E43E0F66C4BC0024AEEE /* auth_rsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E3690F66C4BC0024AEEE /* auth_rsa.c */; };
@@ -647,6 +648,7 @@
 		239A3CE7101168630070329A /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
 		239A3CE8101168630070329A /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		239A3CF9101168C90070329A /* ssl-gnutls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "ssl-gnutls.c"; path = "../../../../pidgin-2.5.8/libpurple/plugins/ssl/ssl-gnutls.c"; sourceTree = "<group>"; };
+		239A3D6D1011743C0070329A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		23B5E2F60F66BBA20024AEEE /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
 		23B5E3670F66C4BC0024AEEE /* auth_psk_passwd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = auth_psk_passwd.c; path = "../gnutls-2.6.4/lib/auth_psk_passwd.c"; sourceTree = SOURCE_ROOT; };
 		23B5E3680F66C4BC0024AEEE /* auth_psk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = auth_psk.h; path = "../gnutls-2.6.4/lib/auth_psk.h"; sourceTree = SOURCE_ROOT; };
@@ -2240,6 +2242,7 @@
 				23EACDBD0F4AF13E00CA55CF /* GLib.framework in Frameworks */,
 				23D00C8F0F40962A00D3DF4B /* Gtk.framework in Frameworks */,
 				23EAC6D90F49ECE100CA55CF /* Carbon.framework in Frameworks */,
+				239A3D6E1011743C0070329A /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2263,6 +2266,7 @@
 				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
 				195DF8CFFE9D517E11CA2CBB /* Products */,
 				230982900F4C8794008E6C7F /* libotr-Info.plist */,
+				239A3D6D1011743C0070329A /* IOKit.framework */,
 			);
 			name = "pidgin-macosx";
 			sourceTree = "<group>";

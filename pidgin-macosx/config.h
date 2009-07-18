@@ -85,7 +85,7 @@
 #define HAVE_INTTYPES_H 1
 
 /* Define if we have IOKit */
-/* #undef HAVE_IOKIT */
+#define	HAVE_IOKIT 1
 
 /* Define to 1 if you have the `krb_get_err_text' function. */
 /* #undef HAVE_KRB_GET_ERR_TEXT */
@@ -382,8 +382,8 @@
 /* #define USE_SM 1 */
 
 /* Version number of package */
-#define VERSION "2.5.5"
-#define DISPLAY_VERSION "2.5.5 Mac"
+#define VERSION "2.5.8"
+#define DISPLAY_VERSION "2.5.8 Mac"
 
 #define PACKAGE_VERSION "Pidgin " DISPLAY_VERSION
 
