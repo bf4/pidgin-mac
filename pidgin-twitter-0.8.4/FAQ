@@ -1,0 +1,28 @@
+Frequently Asked Questions
+--------------------------
+
+Q: Twitter support seems to be disabled. How can I twit via
+pidgin-twitter?
+
+A:
+Since Twitter's IM gateway bot has been offlined for long time, you
+need to setup API based twitter access.
+
+Please make sure that screen name for twitter has been properly
+configured, "Get/post statuses via API" has been enabled and the
+password has been properly configured.
+
+Pidgin-twitter works as following: it watches all conversations, if a
+conversation is initiated with one of the "bot account", it starts to
+work. In API based twitter access, pidgin-twitter still use this
+machinery. So your account for twitter must have "twitter@twitter.com"
+in its buddy list.
+
+To add that, please login gtalk with your account which you want to
+use for twitter, then choose "Add buddy" from "Buddies" menu in buddy
+list window. "Add buddy" dialog will appear, please add
+twitter@twitter.com to your gtalk account there. This buddy need not
+appear on the buddy list because it is always offline. You can confirm
+that it has been successfully added to the list by checking "show
+offline buddies" (Buddies->Show->Offline buddies). I recommend
+applying "show when offline" on twitter@twitter.com for convenience.

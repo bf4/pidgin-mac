@@ -1,0 +1,93 @@
+# -*- mode: makefile -*-
+
+# you must specify pidgin top directory. the following line assumes
+# that pidgin-twitter directory is located at pidgin-*/pidgin/plugins.
+PIDGIN_TREE_TOP = ../../../
+
+# uncomment this if you use individually installed gtk libraries.
+# USE_CUSTOM_PATHS = 1
+
+include $(PIDGIN_TREE_TOP)/libpurple/win32/global.mak
+
+# specify custom paths here.
+ifeq ($(USE_CUSTOM_PATHS), 1)
+GTK_TOP = ../gtk+-dev-2.12.11
+GLIB_TOP = ../glib-dev-2.16.5
+ATK_TOP = ../atk-dev-1.22.0
+PANGO_TOP = ../pango-dev-1.20.5
+CAIRO_TOP = ../cairo-dev-1.6.4-2
+ICONV_TOP = ../win_iconv-tml-20080320
+GETTEXT_TOP = ../gettext-runtime-dev-0.17-1
+else
+GLIB_TOP = $(GTK_TOP)
+ATK_TOP = $(GTK_TOP)
+PANGO_TOP = $(GTK_TOP)
+CAIRO_TOP = $(GTK_TOP)
+ICONV_TOP = $(GTK_TOP)
+GETTEXT_TOP = $(GTK_TOP)
+endif
+
+
+OBJCOPY = objcopy.exe
+STRIP = strip.exe
+
+TARGET = pidgin-twitter.dll
+SRCS = main.c util.c prefs.c icon.c twitter_api.c
+
+OBJS = $(SRCS:%.c=%.o) prefs_ui.o
+DEPEND = .deps
+
+CPPFLAGS = -I$(GLIB_TOP)/include/glib-2.0 \
+	-I$(GLIB_TOP)/lib/glib-2.0/include \
+	-I$(GTK_TOP)/include/gtk-2.0 \
+	-I$(GTK_TOP)/lib/gtk-2.0/include \
+	-I$(ATK_TOP)/include/atk-1.0 \
+	-I$(PANGO_TOP)/include/pango-1.0 \
+	-I$(CAIRO_TOP)/include/cairo \
+	-I$(ICONV_TOP)/include \
+	-I$(LIBXML2_TOP)/include \
+	-I$(PURPLE_TOP) \
+	-I$(PURPLE_TOP)/win32 \
+	-I$(PIDGIN_TOP) \
+	-I$(PIDGIN_TOP)/win32
+
+LIB_PATHS = -L$(GLIB_TOP)/lib \
+	-L$(GTK_TOP)/lib \
+	-L$(LIBXML2_TOP)/lib \
+	-L$(GETTEXT_TOP)/lib \
+	-L$(PURPLE_TOP) \
+	-L$(PIDGIN_TOP)
+
+LIBS = -lgtk-win32-2.0 \
+	-lglib-2.0 \
+	-lgdk-win32-2.0 \
+	-lgobject-2.0 \
+	-lintl \
+	-lpurple \
+	-lpidgin \
+	-lxml2 \
+	-lgdk_pixbuf-2.0
+
+LDFLAGS = $(LIB_PATHS) $(LIBS) $(DLL_LD_FLAGS)
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CC) -shared $^ $(LDFLAGS) -o $@
+
+.c.o:
+	$(CC) -c $(CFLAGS) $(CPPFLAGS) $< -o $@
+
+prefs_ui.o: prefs.ui
+	$(OBJCOPY) -I binary -O pe-i386 -B i386 $^ $@
+
+strip: $(TARGET)
+	$(STRIP) $^
+
+clean:
+	rm -f $(OBJS) $(TARGET) $(DEPEND) *~
+
+$(DEPEND): $(SRCS)
+	$(CC) -MM $(CPPFLAGS) $(SRCS) > $@
+
+-include $(DEPEND)

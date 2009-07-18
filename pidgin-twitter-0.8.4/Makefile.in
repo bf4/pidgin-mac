@@ -1,0 +1,55 @@
+TARGET = pidgin-twitter.so
+SRCS = main.c util.c prefs.c icon.c twitter_api.c
+OBJS = ${SRCS:.c=.o}
+DEPEND = .deps
+
+PIDGIN_PLUGIN_DIR = @PIDGIN_PREFIX@/lib/pidgin
+PIDGIN_DATA_DIR = @PIDGIN_PREFIX@/share
+
+PIDGIN_CFLAGS = @PIDGIN_CFLAGS@
+GLIB_CFLAGS = @GLIB_CFLAGS@
+XML_CFLAGS = @XML_CFLAGS@
+CFLAGS = -fPIC -shared -Wall -g $(PIDGIN_CFLAGS) $(GLIB_CFLAGS) $(XML_CFLAGS) -DDATADIR=\"$(PIDGIN_DATA_DIR)\"
+
+GLIB_LIBS = @GLIB_LIBS@
+XML_LIBS = @XML_LIBS@
+LDFLAGS = -fPIC -shared -Wall $(GLIB_LIBS) $(XML_LIBS)
+
+all: $(TARGET)
+
+
+$(TARGET): $(OBJS)
+	$(CC) -o $@ $^ $(LDFLAGS)
+
+
+.c.o:
+	$(CC) -o $@ $< -c $(CFLAGS)
+
+
+install: $(TARGET)
+	install -m 755 $(TARGET) $(PIDGIN_PLUGIN_DIR)
+	install -d -m 755 $(PIDGIN_DATA_DIR)/pidgin-twitter
+	install -m 644 prefs.ui $(PIDGIN_DATA_DIR)/pidgin-twitter
+
+
+clean:
+	rm -f $(TARGET) $(OBJS) $(DEPEND)
+
+
+distclean: clean
+	rm -f Makefile config.log config.status
+
+
+maintainer-clean: distclean
+	rm -rf autom4te.cache aclocal.m4 *~
+
+
+release: maintainer-clean
+	rm -f .hgtags
+	rm -rf .hg
+
+
+$(DEPEND): $(SRCS)
+	$(CC) -MM $(SRCS) > $@
+
+-include $(DEPEND)

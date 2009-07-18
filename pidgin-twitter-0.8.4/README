@@ -1,0 +1,351 @@
+pidgin-twitter-0.8.4
+
+
+1. What is this?
+
+pidgin-twitter is a Pidgin plugin to help posting and reading micro
+blogs such as Twitter. Currently, pidgin-twitter supports Twitter,
+Wassr, identi.ca and jisko.
+
+Features:
+General
+    * display user icon (size configurable)
+    * translate sender's name or @<username> to a link to the user's
+      page
+    * play sounds for specific senders/recipients
+    * show letter counter on the format toolbar
+    * filter messages from specified users
+
+Twitter specific
+    * get/post Twitter statuses via API
+    * escape pseudo commands like "w"
+    * suppress oops message return
+
+Wassr specific
+    * translate #<channel name> to link to the channel
+    * eliminate annoying post completion messages
+
+identi.ca specific
+    * translate #<tag> to link to the tag
+    * eliminate annoying echo backed messages
+    * translate !<group name> to link to the group
+
+
+2. Dependency
+
+This plugin requires Pidgin 2.4.0 or newer, glib-2.16.0 or newer,
+gtk+-2.12.0 or newer and libxml-2.6.27 or newer.
+
+
+3. How to build
+
+Building pidgin-twitter plugin is very simple. Please do;
+
+./configure
+make
+sudo make install
+
+If you intend to build pidgin-twitter on Windows, edit Makefile.mingw
+as your build environment and do;
+
+make -f Makefile.mingw
+
+Put resultant pidgin-twitter.dll to pidgin's plug-ins directory.
+
+
+4. Usage
+
+To enable pidgin-twitter, please check it as "Enabled" in Pidgin's
+plugins window. Almost all of features can be configured through
+pidgin-twitter's paged preferences window. In this section, we explain
+the features in page by page basis.
+
+4.1 Account page
+
+4.1.1 Screen Name
+
+You can specify your account names for each service here. These names
+will be used for showing your icon in conversations. In a Twitter
+conversation, the screen name will be also used for authentication
+when API based access is enabled.
+
+4.1.2 Get/post statuses via API
+
+Since Pidgin is an instant message client, it is natural that Pidgin
+uses XMPP protocol to access to Twitter. However, Twitter has
+suspended their IM gateway for long time, for scalability issues. So
+we had decided to provide the other way to access to Twitter using
+Twitter's public API.
+
+If you enable this feature, pidgin-twitter gets your timeline and puts
+your update via Twitter API.
+
+4.1.3 Password
+
+Please put your Twitter password here if you have enabled "Get/post
+statuses via API" checkbox (see 4.1.2).  This password is used for
+basic authentication which is required to access Twitter via API.
+Note that the Twitter password is saved in configuration file,
+e.g. ~/.purple/prefs.xml, as plain text and sent to Twitter API
+without encryption.
+
+4.1.4 Retrieve interval
+
+You can specify the interval between each retrievals by ten seconds.
+
+4.2 Translation page
+
+4.2.1 Translate @username to link
+
+This checkbox toggles translation from a recipient name to the link to
+the recipient.
+
+4.2.2 Translate sender name to link
+
+This checkbox toggles translation from a sender name to the link to
+the sender.
+
+4.2.3 Translate #channel/tag to link
+
+This checkbox toggles translation from channel/tag name which begins
+with '#' to respective links. This feature is available for Wassr or
+identi.ca.
+
+4.3 Filter page
+
+4.3.1 Apply filter
+
+This checkbox toggles filter functionality. If it is enabled, messages
+from the users who reside in "to be filtered list" will be filtered
+and be discarded silently.
+
+4.3.2 Exclude reply to me
+
+If it is enabled, messages which contain @<your screen name> will be
+excluded from filtering.
+
+4.3.3 Users to be filtered
+
+These lists accommodate users to be filtered. A list is a enumeration
+of usernames separated by a letter in ",:;" and spaces.  For example,
+"foo bar" or "foo,bar" is a valid user list and a list like "foo, bar"
+also works.
+
+4.4 Icon page
+
+4.4.1 Show icon in conversations
+
+This checkbox toggles show/hide icons for users in conversations.
+
+4.4.2 Icon size
+
+Icon size in conversations can be specified by this spin button.
+
+4.4.3 Enable icon update
+
+This checkbox toggles update for icons by the specified period. See
+below for the update interval.
+
+4.4.4 Update interval
+
+You can specify update interval here in two ways. The first is the
+number of times showing one particular icon before update. The second
+is days before update.
+
+4.5 Sound page
+
+4.5.1 Play sound on a reply to a specified recipient
+
+This checkbox toggles play sound for a specified recipient.
+
+pidgin-twitter can play a sound when an incoming message contains any
+recipient name in the recipient list explained bellow.
+
+It is convenient that add your screen name to the recipient list and
+turn this feature on so that you can audibly notice each arrival or
+message to you.
+
+4.5.2 Recipient list
+
+Recipient list accommodates names of watched recipients. This list is
+a enumeration of usernames separated by a letter in ",:;" and spaces.
+For example, "foo bar" or "foo,bar" is a valid user list and a list like
+"foo, bar" also works.
+
+4.5.3 Sound type
+
+You can specify event type of sound to be played here. The "Pounce
+Default" sound is the default sound type because it may not be
+disabled by configuration in Pidgin's preferences. You can specify
+other sounds, but be aware, you have to enable the event type of sound
+which you specified for pidgin-twitter in Pidgin's preferences.
+
+4.5.4 Play sound on a message from a specified sender
+
+This is the same as 4.5.1 except that it is for senders.
+
+4.5.5 Sender list
+
+This is the same as 4.5.2 except that sender list accommodates names
+of watched senders.
+
+4.5.6 Sound type
+
+This is the same as 4.5.3 except that it is for senders.
+
+4.6 Utility page
+
+4.6.1 Show text counter
+
+This checkbox toggles letter counter. If it is enabled, a small letter
+counter widget will appear on the format bar in a Pidgin conversation
+window. This counter keeps track of length of composing string in
+character. Each service has its own limit of length for posting
+messages; 140 characters in Twitter, 255 characters in Wassr and 140
+bytes in identi.ca. If the composing message exceeds the limit, the
+displayed number will turn red to notify you the excess.
+
+4.6.2 Escape pseudo command for twitter
+
+This checkbox toggles escape pseudo command functionality.
+
+A pseudo command is a message composed of leading non Latin string and
+trailing an alphabet letter which can be interpreted as a command in
+short form. Twitter wrongly interpreted it as an incomplete command
+message so that Twitter gives you an error massage.
+
+If this feature is enabled, pidgin-twitter automatically escapes any
+pseudo command by prepending ". " at the beginning of a message.
+
+4.6.3 Suppress oops message
+
+This checkbox toggles suppress oops message feature for Twitter
+conversation.
+
+This feature may require explanation. If we send a message which is
+longer than 140 bytes, Twitter will send us back an oops message to
+notify the excess of the limit. However, Twitter computes the actual
+hard limit in internal representation of characters so that the
+messages which does not exceed 140 letters can actually be
+accepted. This feature will silently discard *false* oops message in
+this situation.
+
+4.6.4 Strip excessive newline characters
+
+A message from feed bot may contain excessive number of newline
+characters. It sometimes annoys messenger users by taking huge space
+in the message window.
+
+If this feature is enabled, pidgin-twitter automatically strips
+consecutive newline characters and replaces them with single newline
+character.
+
+4.6.5 Do not notify incoming message (Windows only)
+
+This checkbox toggles suppression of blinking Pidgin's task bar button
+for new incoming message when Pidgin window is not active.
+
+4.6.6 Enable log output
+
+This checkbox toggles log messages for debugging. If you have any
+trouble, we suggest to enable this feature and report us your problem
+with obtained information.
+
+
+5. History
+
+0.4.0 (May 01 2008)
+First public release.
+
+0.5.0 (May 05 2008)
+Added escape pseudo command functionality.
+
+0.5.1 (May 05 2008)
+Fixed a crash bug that each unload and reload pidgin-twitter cycle
+resulted in crash.
+
+0.6.0 (May 16 2008)
+- Letter counter has been added.
+- Suppress "false positive oops message" when sending message which
+  exceeds 140 bytes but within 140 characters.
+- Pidgin-twitter now strips all markup elements from sending message.
+  This feature prevents this plugin from posting unexpected
+  excessively marked up message.
+- Since pidgin-twitter no longer sends any marked up message, all
+  markup widgets in conversation window have been disabled.
+
+0.7.0 alpha1 (June 28 2008)
+- Show icon feature has been added.
+- API based posting has been added.
+- Notification on message arrival can be disabled now.
+- Annoying completion message which is returned from Wassr service
+  will be automatically ignored.
+
+0.7.0 (August 5 2008)
+- Support for identi.ca has been added.
+- Icon support for Wassr and identi.ca have been added.
+- Icon size and icon visibility are now configurable.
+- Automatic icon update has been implemented.
+- Translation from channel name to the link to the channel in Wassr
+  has been added.
+- Disabling notification on message arrival now works for Wassr and
+  identi.ca too.
+
+0.8.0 beta 1 (September 29 2008)
+- Filter functionality has been added.
+- Translation from tag name to the link to the tag in identi.ca
+  has been added.
+- Many improvements and bug fixes.
+
+0.8.0 (October 28 2008)
+- jisko support has been added.
+- Strip excessive newline feature has been added.
+- Fixed a breakage of playing sound for the recipients.
+
+0.8.1 (December 10 2008)
+- Icon handling has been improved so that users' custom icons would
+  not turn into default one.
+- Fixed a glitch in the pattern for identi.ca icon.
+- Get/post twitter statuses via API has been turned on by default.
+- prefs.ui file would be embedded into dll on windows environment so
+  that separate installation by hand is no longer required.
+- Reorganized source codes.
+
+0.8.2 (December 13 2008)
+- Adapted for laconica 0.6.4 in identi.ca service.
+- Fixed the recipient format for jisko.
+
+0.8.3 (April 7 2009)
+- Number of messages to retrieve in twitter API access is now
+  configurable.
+- Adapted to twitter's icon URL change.
+- Changed the way of escaping outgoing message. More characters will
+  be sent as raw.
+- Added group support for identi.ca.
+
+0.8.4 (June 13 2009)
+- Fix for a bug that status id exceeds int32 limit.
+- Now a search tag like #foo in twitter generates a search link.
+- Added preliminary support for friendfeed.
+
+
+6. Acknowledgments
+
+In the beginning of development, I (yazuuchi) got a number of valuable
+feedbacks from nosuke (@konosuke) and mojin (@mojin).
+
+The original letter counter has been developed by Dossy Shiobara in
+convcharcount plugin.
+
+In development for 0.6.0, mikanbako (@mikanbako) joined our team and
+contributed numerous efforts. The original strip markup feature and
+the disable markup widgets feature has been developed by him.
+
+API based posting has been contributed by nosuke in development for
+0.7.0.
+
+We got uncountable feedbacks from users in the #pidgin_twitter channel
+at Wassr.
+
+Yoshiki Yazawa (@yazuuchi) and the pidgin-twitter team
+yaz@honeyplanet.jp
