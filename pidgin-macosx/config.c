@@ -23,6 +23,7 @@ void static_proto_init(void) {
 	purple_init_jabber_plugin();
 	purple_init_irc_plugin();
 	purple_init_facebook_plugin();
+	purple_init_sametime_plugin();
 }
 
 void static_plugin_init(void) {
