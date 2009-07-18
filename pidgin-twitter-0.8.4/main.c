@@ -16,7 +16,7 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
  * 02111-1307, USA.
  */
-#define PURPLE_PLUGINS 1
+//#define PURPLE_PLUGINS 1
 
 #include "pidgin-twitter.h"
 
