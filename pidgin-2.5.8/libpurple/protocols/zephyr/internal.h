@@ -1,12 +1,12 @@
 #ifndef __INTERNAL_H__
 #define __INTERNAL_H__
 
-#include <sysdep.h>
+#include "sysdep.h"
 
 #ifdef LIBZEPHYR_EXT
 #include <zephyr/zephyr.h>
 #else
-#include <zephyr_internal.h>
+#include "zephyr_internal.h"
 #endif
 
 #ifndef WIN32

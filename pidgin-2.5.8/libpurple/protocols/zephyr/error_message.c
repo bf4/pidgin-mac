@@ -7,7 +7,7 @@
 
 #include "error_table.h"
 #include "com_err.h"
-#include <sysdep.h>
+#include "sysdep.h"
 
 char *error_table_name_r __P((int, char *));
 

@@ -62,7 +62,7 @@ static gboolean visibility_manager = FALSE;
  * docklet status and utility functions
  **************************************************************************/
 static gboolean
-docklet_blink_icon(gpointer data)
+docklet_blink_icon_cb()
 {
 	static gboolean blinked = FALSE;
 	gboolean ret = FALSE; /* by default, don't keep blinking */
@@ -83,6 +83,15 @@ docklet_blink_icon(gpointer data)
 	}
 
 	return ret;
+}
+
+static void
+docklet_blink_icon(gboolean blink)
+{
+	if (ui_ops->blink)
+		ui_ops->blink(blink);
+	else if (blink)
+		docklet_blinking_timer = g_timeout_add(500, docklet_blink_icon_cb, NULL);
 }
 
 static GList *
@@ -214,7 +223,9 @@ docklet_update_status(void)
 		/* and schedule the blinker function if messages are pending */
 		if (purple_prefs_get_bool(PIDGIN_PREFS_ROOT "/docklet/blink")
 			&& pending && !connecting && docklet_blinking_timer == 0) {
-			docklet_blinking_timer = g_timeout_add(500, docklet_blink_icon, NULL);
+			docklet_blink_icon(TRUE);
+		} else {
+			docklet_blink_icon(FALSE);
 		}
 	}
 

@@ -205,15 +205,18 @@ struct _PurplePluginAction {
  */
 #if !defined(PURPLE_PLUGINS) || defined(PURPLE_STATIC_PRPL)
 # define _FUNC_NAME(x) purple_init_##x##_plugin
+# define _FUNC_NAME2(x) purple_init_##x##_plugin__optload
 # define PURPLE_INIT_PLUGIN(pluginname, initfunc, plugininfo) \
-	gboolean _FUNC_NAME(pluginname)(void);\
-	gboolean _FUNC_NAME(pluginname)(void) { \
+	gboolean _FUNC_NAME2(pluginname)(int load);\
+	gboolean _FUNC_NAME2(pluginname)(int load) { \
 		PurplePlugin *plugin = purple_plugin_new(TRUE, NULL); \
 		plugin->info = &(plugininfo); \
 		initfunc((plugin)); \
-		purple_plugin_load((plugin)); \
+		if(load) purple_plugin_load((plugin)); \
 		return purple_plugin_register(plugin); \
-	}
+	} \
+	gboolean _FUNC_NAME(pluginname)(void);\
+	gboolean _FUNC_NAME(pluginname)(void) { return _FUNC_NAME2(pluginname)(1); }
 #else /* PURPLE_PLUGINS  && !PURPLE_STATIC_PRPL */
 # define PURPLE_INIT_PLUGIN(pluginname, initfunc, plugininfo) \
 	G_MODULE_EXPORT gboolean purple_init_plugin(PurplePlugin *plugin); \

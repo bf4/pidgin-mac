@@ -27,6 +27,9 @@
 #include "internal.h"
 #include "pidgin.h"
 
+#include "ige-mac-menu.h"
+#include "ige-mac-dock.h"
+#include "ige-mac-bundle.h"
 #include "account.h"
 #include "connection.h"
 #include "core.h"
@@ -5642,6 +5645,7 @@ static void pidgin_blist_show(PurpleBuddyList *list)
 	pidgin_blist_restore_position();
 	gtk_widget_show_all(GTK_WIDGET(gtkblist->vbox));
 	gtk_widget_realize(GTK_WIDGET(gtkblist->window));
+	//ige_mac_menu_set_menu_bar(GTK_MENU_SHELL(menu));  // TODO: doesnt work yet
 	purple_blist_set_visible(purple_prefs_get_bool(PIDGIN_PREFS_ROOT "/blist/list_visible"));
 
 	/* start the refresh timer */

@@ -661,7 +661,8 @@ static struct docklet_ui_ops winpidgin_tray_ops =
 	winpidgin_tray_update_icon,
 	winpidgin_tray_blank_icon,
 	winpidgin_tray_set_tooltip,
-	NULL
+	NULL,						/* position menu */
+	NULL						/* blink */
 };
 
 /* Used by docklet's plugin load func */

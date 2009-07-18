@@ -18,7 +18,7 @@
 #include <sys/types.h>
 #include <sys/time.h>
 
-#include <zephyr_err.h>
+#include "zephyr_err.h"
 
 #ifndef IPPROTO_MAX	/* Make sure not already included */
 #ifndef WIN32

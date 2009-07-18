@@ -23,7 +23,7 @@
  *
  */
 
-#include <oscar.h>
+#include "oscar.h"
 
 static int
 reportinterval(OscarData *od, FlapConnection *conn, aim_module_t *mod, FlapFrame *frame, aim_modsnac_t *snac, ByteStream *bs)

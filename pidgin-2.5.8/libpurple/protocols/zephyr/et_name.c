@@ -4,7 +4,7 @@
  * For copyright info, see mit-sipb-copyright.h.
  */
 
-#include <sysdep.h>
+#include "sysdep.h"
 
 
 #define	ERRCODE_RANGE	8	/* # of bits to shift table number */

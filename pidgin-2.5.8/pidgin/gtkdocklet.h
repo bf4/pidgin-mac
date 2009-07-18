@@ -35,6 +35,7 @@ struct docklet_ui_ops
 	void (*blank_icon)(void);
 	void (*set_tooltip)(gchar *);
 	GtkMenuPositionFunc position_menu;
+	void (*blink)(gboolean);
 };
 
 

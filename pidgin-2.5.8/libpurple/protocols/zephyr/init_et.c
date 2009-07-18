@@ -5,7 +5,7 @@
  * For copyright info, see mit-sipb-copyright.h.
  */
 
-#include <sysdep.h>
+#include "sysdep.h"
 
 extern struct et_list * _et_list;
 
