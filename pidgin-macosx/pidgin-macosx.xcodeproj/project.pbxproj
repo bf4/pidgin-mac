@@ -14,8 +14,28 @@
 		230983A60F4C94BB008E6C7F /* dialogs.c in Sources */ = {isa = PBXBuildFile; fileRef = 230983A00F4C94AE008E6C7F /* dialogs.c */; };
 		230983A70F4C94BB008E6C7F /* gtk-dialog.c in Sources */ = {isa = PBXBuildFile; fileRef = 230983A30F4C94AE008E6C7F /* gtk-dialog.c */; };
 		230983A80F4C94BB008E6C7F /* ui.c in Sources */ = {isa = PBXBuildFile; fileRef = 2309839D0F4C94A1008E6C7F /* ui.c */; };
+		239A3C4F10115EEC0070329A /* buddy_memo.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C4D10115EEC0070329A /* buddy_memo.c */; };
+		239A3C64101162940070329A /* sametime.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C5F101162940070329A /* sametime.c */; };
+		239A3CA8101164810070329A /* channel.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C7D101164810070329A /* channel.c */; };
+		239A3CA9101164810070329A /* cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C7E101164810070329A /* cipher.c */; };
+		239A3CAA101164810070329A /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C7F101164810070329A /* common.c */; };
+		239A3CAB101164810070329A /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C80101164810070329A /* error.c */; };
+		239A3CAC101164810070329A /* message.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C81101164810070329A /* message.c */; };
+		239A3CAF101164810070329A /* mpi.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C87101164810070329A /* mpi.c */; };
+		239A3CB0101164810070329A /* mw_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C8C101164810070329A /* mw_debug.c */; };
+		239A3CB1101164810070329A /* mw_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C9B101164810070329A /* mw_util.c */; };
+		239A3CB2101164810070329A /* service.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C9D101164810070329A /* service.c */; };
+		239A3CB3101164810070329A /* session.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C9E101164810070329A /* session.c */; };
+		239A3CB4101164810070329A /* srvc_aware.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3C9F101164810070329A /* srvc_aware.c */; };
+		239A3CB5101164810070329A /* srvc_conf.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CA0101164810070329A /* srvc_conf.c */; };
+		239A3CB6101164810070329A /* srvc_dir.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CA1101164810070329A /* srvc_dir.c */; };
+		239A3CB7101164810070329A /* srvc_ft.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CA2101164810070329A /* srvc_ft.c */; };
+		239A3CB8101164810070329A /* srvc_im.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CA3101164810070329A /* srvc_im.c */; };
+		239A3CB9101164810070329A /* srvc_place.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CA4101164810070329A /* srvc_place.c */; };
+		239A3CBA101164810070329A /* srvc_resolve.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CA5101164810070329A /* srvc_resolve.c */; };
+		239A3CBB101164810070329A /* srvc_store.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CA6101164810070329A /* srvc_store.c */; };
+		239A3CBC101164810070329A /* st_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CA7101164810070329A /* st_list.c */; };
 		23B5E2F70F66BBA20024AEEE /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E2F60F66BBA20024AEEE /* config.c */; };
-		23B5E3070F66BDA20024AEEE /* buddy_memo.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E3050F66BDA20024AEEE /* buddy_memo.c */; };
 		23B5E33B0F66C1CA0024AEEE /* ssl-gnutls.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E33A0F66C1CA0024AEEE /* ssl-gnutls.c */; };
 		23B5E43D0F66C4BC0024AEEE /* auth_psk_passwd.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E3670F66C4BC0024AEEE /* auth_psk_passwd.c */; };
 		23B5E43E0F66C4BC0024AEEE /* auth_rsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E3690F66C4BC0024AEEE /* auth_rsa.c */; };
@@ -363,8 +383,6 @@
 		23D0048A0F40900700D3DF4B /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 23D002370F40900600D3DF4B /* util.c */; };
 		23D0048B0F40900700D3DF4B /* yahoo.c in Sources */ = {isa = PBXBuildFile; fileRef = 23D002380F40900600D3DF4B /* yahoo.c */; };
 		23D0048C0F40900700D3DF4B /* yahoo_aliases.c in Sources */ = {isa = PBXBuildFile; fileRef = 23D0023A0F40900600D3DF4B /* yahoo_aliases.c */; };
-		23D0048D0F40900700D3DF4B /* yahoo_auth.c in Sources */ = {isa = PBXBuildFile; fileRef = 23D0023C0F40900600D3DF4B /* yahoo_auth.c */; };
-		23D0048E0F40900700D3DF4B /* yahoo_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 23D0023E0F40900600D3DF4B /* yahoo_crypt.c */; };
 		23D0048F0F40900700D3DF4B /* yahoo_doodle.c in Sources */ = {isa = PBXBuildFile; fileRef = 23D002400F40900600D3DF4B /* yahoo_doodle.c */; };
 		23D004900F40900700D3DF4B /* yahoo_filexfer.c in Sources */ = {isa = PBXBuildFile; fileRef = 23D002420F40900600D3DF4B /* yahoo_filexfer.c */; };
 		23D004910F40900700D3DF4B /* yahoo_friend.c in Sources */ = {isa = PBXBuildFile; fileRef = 23D002440F40900600D3DF4B /* yahoo_friend.c */; };
@@ -567,9 +585,51 @@
 		230983A20F4C94AE008E6C7F /* dialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dialogs.h; path = "../pidgin-otr-3.1.0/dialogs.h"; sourceTree = SOURCE_ROOT; };
 		230983A30F4C94AE008E6C7F /* gtk-dialog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "gtk-dialog.c"; path = "../pidgin-otr-3.1.0/gtk-dialog.c"; sourceTree = SOURCE_ROOT; };
 		230983A40F4C94AE008E6C7F /* gtk-dialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "gtk-dialog.h"; path = "../pidgin-otr-3.1.0/gtk-dialog.h"; sourceTree = SOURCE_ROOT; };
+		239A3C4D10115EEC0070329A /* buddy_memo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buddy_memo.c; path = "../../../../pidgin-2.5.8/libpurple/protocols/qq/buddy_memo.c"; sourceTree = "<group>"; };
+		239A3C4E10115EEC0070329A /* buddy_memo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buddy_memo.h; path = "../../../../pidgin-2.5.8/libpurple/protocols/qq/buddy_memo.h"; sourceTree = "<group>"; };
+		239A3C5F101162940070329A /* sametime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sametime.c; sourceTree = "<group>"; };
+		239A3C60101162940070329A /* sametime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sametime.h; sourceTree = "<group>"; };
+		239A3C7D101164810070329A /* channel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = channel.c; path = "../meanwhile-1.0.2/src/channel.c"; sourceTree = "<group>"; };
+		239A3C7E101164810070329A /* cipher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cipher.c; path = "../meanwhile-1.0.2/src/cipher.c"; sourceTree = "<group>"; };
+		239A3C7F101164810070329A /* common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = common.c; path = "../meanwhile-1.0.2/src/common.c"; sourceTree = "<group>"; };
+		239A3C80101164810070329A /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = error.c; path = "../meanwhile-1.0.2/src/error.c"; sourceTree = "<group>"; };
+		239A3C81101164810070329A /* message.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = message.c; path = "../meanwhile-1.0.2/src/message.c"; sourceTree = "<group>"; };
+		239A3C85101164810070329A /* mpi-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mpi-config.h"; sourceTree = "<group>"; };
+		239A3C86101164810070329A /* mpi-types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mpi-types.h"; sourceTree = "<group>"; };
+		239A3C87101164810070329A /* mpi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mpi.c; sourceTree = "<group>"; };
+		239A3C88101164810070329A /* mpi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpi.h; sourceTree = "<group>"; };
+		239A3C89101164810070329A /* mw_channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_channel.h; path = "../meanwhile-1.0.2/src/mw_channel.h"; sourceTree = "<group>"; };
+		239A3C8A101164810070329A /* mw_cipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_cipher.h; path = "../meanwhile-1.0.2/src/mw_cipher.h"; sourceTree = "<group>"; };
+		239A3C8B101164810070329A /* mw_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_common.h; path = "../meanwhile-1.0.2/src/mw_common.h"; sourceTree = "<group>"; };
+		239A3C8C101164810070329A /* mw_debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mw_debug.c; path = "../meanwhile-1.0.2/src/mw_debug.c"; sourceTree = "<group>"; };
+		239A3C8D101164810070329A /* mw_debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_debug.h; path = "../meanwhile-1.0.2/src/mw_debug.h"; sourceTree = "<group>"; };
+		239A3C8E101164810070329A /* mw_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_error.h; path = "../meanwhile-1.0.2/src/mw_error.h"; sourceTree = "<group>"; };
+		239A3C8F101164810070329A /* mw_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_message.h; path = "../meanwhile-1.0.2/src/mw_message.h"; sourceTree = "<group>"; };
+		239A3C90101164810070329A /* mw_service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_service.h; path = "../meanwhile-1.0.2/src/mw_service.h"; sourceTree = "<group>"; };
+		239A3C91101164810070329A /* mw_session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_session.h; path = "../meanwhile-1.0.2/src/mw_session.h"; sourceTree = "<group>"; };
+		239A3C92101164810070329A /* mw_srvc_aware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_srvc_aware.h; path = "../meanwhile-1.0.2/src/mw_srvc_aware.h"; sourceTree = "<group>"; };
+		239A3C93101164810070329A /* mw_srvc_conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_srvc_conf.h; path = "../meanwhile-1.0.2/src/mw_srvc_conf.h"; sourceTree = "<group>"; };
+		239A3C94101164810070329A /* mw_srvc_dir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_srvc_dir.h; path = "../meanwhile-1.0.2/src/mw_srvc_dir.h"; sourceTree = "<group>"; };
+		239A3C95101164810070329A /* mw_srvc_ft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_srvc_ft.h; path = "../meanwhile-1.0.2/src/mw_srvc_ft.h"; sourceTree = "<group>"; };
+		239A3C96101164810070329A /* mw_srvc_im.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_srvc_im.h; path = "../meanwhile-1.0.2/src/mw_srvc_im.h"; sourceTree = "<group>"; };
+		239A3C97101164810070329A /* mw_srvc_place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_srvc_place.h; path = "../meanwhile-1.0.2/src/mw_srvc_place.h"; sourceTree = "<group>"; };
+		239A3C98101164810070329A /* mw_srvc_resolve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_srvc_resolve.h; path = "../meanwhile-1.0.2/src/mw_srvc_resolve.h"; sourceTree = "<group>"; };
+		239A3C99101164810070329A /* mw_srvc_store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_srvc_store.h; path = "../meanwhile-1.0.2/src/mw_srvc_store.h"; sourceTree = "<group>"; };
+		239A3C9A101164810070329A /* mw_st_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_st_list.h; path = "../meanwhile-1.0.2/src/mw_st_list.h"; sourceTree = "<group>"; };
+		239A3C9B101164810070329A /* mw_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mw_util.c; path = "../meanwhile-1.0.2/src/mw_util.c"; sourceTree = "<group>"; };
+		239A3C9C101164810070329A /* mw_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mw_util.h; path = "../meanwhile-1.0.2/src/mw_util.h"; sourceTree = "<group>"; };
+		239A3C9D101164810070329A /* service.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = service.c; path = "../meanwhile-1.0.2/src/service.c"; sourceTree = "<group>"; };
+		239A3C9E101164810070329A /* session.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = session.c; path = "../meanwhile-1.0.2/src/session.c"; sourceTree = "<group>"; };
+		239A3C9F101164810070329A /* srvc_aware.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = srvc_aware.c; path = "../meanwhile-1.0.2/src/srvc_aware.c"; sourceTree = "<group>"; };
+		239A3CA0101164810070329A /* srvc_conf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = srvc_conf.c; path = "../meanwhile-1.0.2/src/srvc_conf.c"; sourceTree = "<group>"; };
+		239A3CA1101164810070329A /* srvc_dir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = srvc_dir.c; path = "../meanwhile-1.0.2/src/srvc_dir.c"; sourceTree = "<group>"; };
+		239A3CA2101164810070329A /* srvc_ft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = srvc_ft.c; path = "../meanwhile-1.0.2/src/srvc_ft.c"; sourceTree = "<group>"; };
+		239A3CA3101164810070329A /* srvc_im.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = srvc_im.c; path = "../meanwhile-1.0.2/src/srvc_im.c"; sourceTree = "<group>"; };
+		239A3CA4101164810070329A /* srvc_place.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = srvc_place.c; path = "../meanwhile-1.0.2/src/srvc_place.c"; sourceTree = "<group>"; };
+		239A3CA5101164810070329A /* srvc_resolve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = srvc_resolve.c; path = "../meanwhile-1.0.2/src/srvc_resolve.c"; sourceTree = "<group>"; };
+		239A3CA6101164810070329A /* srvc_store.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = srvc_store.c; path = "../meanwhile-1.0.2/src/srvc_store.c"; sourceTree = "<group>"; };
+		239A3CA7101164810070329A /* st_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = st_list.c; path = "../meanwhile-1.0.2/src/st_list.c"; sourceTree = "<group>"; };
 		23B5E2F60F66BBA20024AEEE /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
-		23B5E3050F66BDA20024AEEE /* buddy_memo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buddy_memo.c; path = "../pidgin-2.5.5/libpurple/protocols/qq/buddy_memo.c"; sourceTree = SOURCE_ROOT; };
-		23B5E3060F66BDA20024AEEE /* buddy_memo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buddy_memo.h; path = "../pidgin-2.5.5/libpurple/protocols/qq/buddy_memo.h"; sourceTree = SOURCE_ROOT; };
 		23B5E33A0F66C1CA0024AEEE /* ssl-gnutls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "ssl-gnutls.c"; path = "../pidgin-2.5.5/libpurple/plugins/ssl/ssl-gnutls.c"; sourceTree = SOURCE_ROOT; };
 		23B5E3670F66C4BC0024AEEE /* auth_psk_passwd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = auth_psk_passwd.c; path = "../gnutls-2.6.4/lib/auth_psk_passwd.c"; sourceTree = SOURCE_ROOT; };
 		23B5E3680F66C4BC0024AEEE /* auth_psk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = auth_psk.h; path = "../gnutls-2.6.4/lib/auth_psk.h"; sourceTree = SOURCE_ROOT; };
@@ -1121,10 +1181,6 @@
 		23D002390F40900600D3DF4B /* yahoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yahoo.h; sourceTree = "<group>"; };
 		23D0023A0F40900600D3DF4B /* yahoo_aliases.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yahoo_aliases.c; sourceTree = "<group>"; };
 		23D0023B0F40900600D3DF4B /* yahoo_aliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yahoo_aliases.h; sourceTree = "<group>"; };
-		23D0023C0F40900600D3DF4B /* yahoo_auth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yahoo_auth.c; sourceTree = "<group>"; };
-		23D0023D0F40900600D3DF4B /* yahoo_auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yahoo_auth.h; sourceTree = "<group>"; };
-		23D0023E0F40900600D3DF4B /* yahoo_crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yahoo_crypt.c; sourceTree = "<group>"; };
-		23D0023F0F40900600D3DF4B /* yahoo_crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yahoo_crypt.h; sourceTree = "<group>"; };
 		23D002400F40900600D3DF4B /* yahoo_doodle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yahoo_doodle.c; sourceTree = "<group>"; };
 		23D002410F40900600D3DF4B /* yahoo_doodle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yahoo_doodle.h; sourceTree = "<group>"; };
 		23D002420F40900600D3DF4B /* yahoo_filexfer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yahoo_filexfer.c; sourceTree = "<group>"; };
@@ -2208,6 +2264,7 @@
 				23B5E76E0F66D7390024AEEE /* pidgin-facebookchat */,
 				23B5E8140F66DEBE0024AEEE /* gfire */,
 				23B5E3600F66C4950024AEEE /* gnutls */,
+				239A3C7C1011645D0070329A /* meanwhile */,
 				2229D7BF09C7779A0058DAED /* HIFramework */,
 			);
 			name = Sources;
@@ -2268,6 +2325,72 @@
 				230983920F4C9463008E6C7F /* otr-plugin.c */,
 			);
 			name = "pidgin-otr";
+			sourceTree = "<group>";
+		};
+		239A3C5B101162940070329A /* sametime */ = {
+			isa = PBXGroup;
+			children = (
+				239A3C5F101162940070329A /* sametime.c */,
+				239A3C60101162940070329A /* sametime.h */,
+			);
+			name = sametime;
+			path = "../../../pidgin-2.5.8/libpurple/protocols/sametime";
+			sourceTree = "<group>";
+		};
+		239A3C7C1011645D0070329A /* meanwhile */ = {
+			isa = PBXGroup;
+			children = (
+				239A3C7D101164810070329A /* channel.c */,
+				239A3C7E101164810070329A /* cipher.c */,
+				239A3C7F101164810070329A /* common.c */,
+				239A3C80101164810070329A /* error.c */,
+				239A3C81101164810070329A /* message.c */,
+				239A3C82101164810070329A /* mpi */,
+				239A3C89101164810070329A /* mw_channel.h */,
+				239A3C8A101164810070329A /* mw_cipher.h */,
+				239A3C8B101164810070329A /* mw_common.h */,
+				239A3C8C101164810070329A /* mw_debug.c */,
+				239A3C8D101164810070329A /* mw_debug.h */,
+				239A3C8E101164810070329A /* mw_error.h */,
+				239A3C8F101164810070329A /* mw_message.h */,
+				239A3C90101164810070329A /* mw_service.h */,
+				239A3C91101164810070329A /* mw_session.h */,
+				239A3C92101164810070329A /* mw_srvc_aware.h */,
+				239A3C93101164810070329A /* mw_srvc_conf.h */,
+				239A3C94101164810070329A /* mw_srvc_dir.h */,
+				239A3C95101164810070329A /* mw_srvc_ft.h */,
+				239A3C96101164810070329A /* mw_srvc_im.h */,
+				239A3C97101164810070329A /* mw_srvc_place.h */,
+				239A3C98101164810070329A /* mw_srvc_resolve.h */,
+				239A3C99101164810070329A /* mw_srvc_store.h */,
+				239A3C9A101164810070329A /* mw_st_list.h */,
+				239A3C9B101164810070329A /* mw_util.c */,
+				239A3C9C101164810070329A /* mw_util.h */,
+				239A3C9D101164810070329A /* service.c */,
+				239A3C9E101164810070329A /* session.c */,
+				239A3C9F101164810070329A /* srvc_aware.c */,
+				239A3CA0101164810070329A /* srvc_conf.c */,
+				239A3CA1101164810070329A /* srvc_dir.c */,
+				239A3CA2101164810070329A /* srvc_ft.c */,
+				239A3CA3101164810070329A /* srvc_im.c */,
+				239A3CA4101164810070329A /* srvc_place.c */,
+				239A3CA5101164810070329A /* srvc_resolve.c */,
+				239A3CA6101164810070329A /* srvc_store.c */,
+				239A3CA7101164810070329A /* st_list.c */,
+			);
+			name = meanwhile;
+			sourceTree = "<group>";
+		};
+		239A3C82101164810070329A /* mpi */ = {
+			isa = PBXGroup;
+			children = (
+				239A3C85101164810070329A /* mpi-config.h */,
+				239A3C86101164810070329A /* mpi-types.h */,
+				239A3C87101164810070329A /* mpi.c */,
+				239A3C88101164810070329A /* mpi.h */,
+			);
+			name = mpi;
+			path = "../meanwhile-1.0.2/src/mpi";
 			sourceTree = "<group>";
 		};
 		23B5E3600F66C4950024AEEE /* gnutls */ = {
@@ -2630,6 +2753,7 @@
 		23D000780F40900300D3DF4B /* protocols */ = {
 			isa = PBXGroup;
 			children = (
+				239A3C5B101162940070329A /* sametime */,
 				23D000AA0F40900300D3DF4B /* irc */,
 				23D000B40F40900300D3DF4B /* jabber */,
 				23D000ED0F40900400D3DF4B /* msn */,
@@ -2892,8 +3016,8 @@
 		23D001CD0F40900500D3DF4B /* qq */ = {
 			isa = PBXGroup;
 			children = (
-				23B5E3050F66BDA20024AEEE /* buddy_memo.c */,
-				23B5E3060F66BDA20024AEEE /* buddy_memo.h */,
+				239A3C4D10115EEC0070329A /* buddy_memo.c */,
+				239A3C4E10115EEC0070329A /* buddy_memo.h */,
 				23D001CE0F40900500D3DF4B /* AUTHORS */,
 				23D001CF0F40900500D3DF4B /* buddy_info.c */,
 				23D001D00F40900500D3DF4B /* buddy_info.h */,
@@ -2963,10 +3087,6 @@
 				23D002390F40900600D3DF4B /* yahoo.h */,
 				23D0023A0F40900600D3DF4B /* yahoo_aliases.c */,
 				23D0023B0F40900600D3DF4B /* yahoo_aliases.h */,
-				23D0023C0F40900600D3DF4B /* yahoo_auth.c */,
-				23D0023D0F40900600D3DF4B /* yahoo_auth.h */,
-				23D0023E0F40900600D3DF4B /* yahoo_crypt.c */,
-				23D0023F0F40900600D3DF4B /* yahoo_crypt.h */,
 				23D002400F40900600D3DF4B /* yahoo_doodle.c */,
 				23D002410F40900600D3DF4B /* yahoo_doodle.h */,
 				23D002420F40900600D3DF4B /* yahoo_filexfer.c */,
@@ -4679,6 +4799,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				23B5E43D0F66C4BC0024AEEE /* auth_psk_passwd.c in Sources */,
+				239A3C64101162940070329A /* sametime.c in Sources */,
+				239A3CA8101164810070329A /* channel.c in Sources */,
+				239A3CA9101164810070329A /* cipher.c in Sources */,
+				239A3CAA101164810070329A /* common.c in Sources */,
+				239A3CAB101164810070329A /* error.c in Sources */,
+				239A3CAC101164810070329A /* message.c in Sources */,
+				239A3CAF101164810070329A /* mpi.c in Sources */,
+				239A3CB0101164810070329A /* mw_debug.c in Sources */,
+				239A3CB1101164810070329A /* mw_util.c in Sources */,
+				239A3CB2101164810070329A /* service.c in Sources */,
+				239A3CB3101164810070329A /* session.c in Sources */,
+				239A3CB4101164810070329A /* srvc_aware.c in Sources */,
+				239A3CB5101164810070329A /* srvc_conf.c in Sources */,
+				239A3CB6101164810070329A /* srvc_dir.c in Sources */,
+				239A3CB7101164810070329A /* srvc_ft.c in Sources */,
+				239A3CB8101164810070329A /* srvc_im.c in Sources */,
+				239A3CB9101164810070329A /* srvc_place.c in Sources */,
+				239A3CBA101164810070329A /* srvc_resolve.c in Sources */,
+				239A3CBB101164810070329A /* srvc_store.c in Sources */,
+				239A3CBC101164810070329A /* st_list.c in Sources */,
 				23B5E43E0F66C4BC0024AEEE /* auth_rsa.c in Sources */,
 				23B5E43F0F66C4BC0024AEEE /* auth_srp_sb64.c in Sources */,
 				23B5E4400F66C4BC0024AEEE /* auth_srp_rsa.c in Sources */,
@@ -5007,8 +5147,6 @@
 				23D0048A0F40900700D3DF4B /* util.c in Sources */,
 				23D0048B0F40900700D3DF4B /* yahoo.c in Sources */,
 				23D0048C0F40900700D3DF4B /* yahoo_aliases.c in Sources */,
-				23D0048D0F40900700D3DF4B /* yahoo_auth.c in Sources */,
-				23D0048E0F40900700D3DF4B /* yahoo_crypt.c in Sources */,
 				23D0048F0F40900700D3DF4B /* yahoo_doodle.c in Sources */,
 				23D004900F40900700D3DF4B /* yahoo_filexfer.c in Sources */,
 				23D004910F40900700D3DF4B /* yahoo_friend.c in Sources */,
@@ -5162,7 +5300,6 @@
 				23D00C120F40903400D3DF4B /* xmppconsole.c in Sources */,
 				23EAC2720F49C75600CA55CF /* gtkdocklet-gtk.c in Sources */,
 				23B5E2F70F66BBA20024AEEE /* config.c in Sources */,
-				23B5E3070F66BDA20024AEEE /* buddy_memo.c in Sources */,
 				23B5E33B0F66C1CA0024AEEE /* ssl-gnutls.c in Sources */,
 				23B5E58D0F66CD670024AEEE /* read-file.c in Sources */,
 				23B5E58E0F66CD670024AEEE /* c-ctype.c in Sources */,
@@ -5192,6 +5329,7 @@
 				23B5E81F0F66DED10024AEEE /* gf_network.c in Sources */,
 				23B5E8200F66DED10024AEEE /* gf_packet.c in Sources */,
 				23B5E8210F66DED10024AEEE /* gfire.c in Sources */,
+				239A3C4F10115EEC0070329A /* buddy_memo.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5234,6 +5372,7 @@
 					"\"$(SRCROOT)/../pidgin-src\"",
 					"\"$(SRCROOT)/../pidgin-src/libpurple\"",
 					"\"$(SRCROOT)/../pidgin-src/pidgin\"",
+					"\"$(SRCROOT)/../meanwhile/src\"",
 					"\"$(SRCROOT)/../gnutls-2.6.4/includes\"",
 					"\"$(SRCROOT)/../gnutls-2.6.4/lib\"",
 					"\"$(SRCROOT)/../gnutls-2.6.4/lib/minitasn1\"",
@@ -5317,6 +5456,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.1;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx10.4;
 			};
@@ -5327,6 +5467,7 @@
 			baseConfigurationReference = 5048396D09E3307300765E4B /* pidgin-macosxProj.xcconfig */;
 			buildSettings = {
 				GCC_C_LANGUAGE_STANDARD = c99;
+				MACOSX_DEPLOYMENT_TARGET = 10.1;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx10.4;
 				SEPARATE_STRIP = YES;
