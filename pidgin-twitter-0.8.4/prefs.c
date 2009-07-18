@@ -1,4 +1,5 @@
 #include "pidgin-twitter.h"
+#include "config.h"
 
 extern GHashTable *icon_hash[];
 extern source_t source;

@@ -61,7 +61,7 @@ static void cancel_fetch_func(gpointer key, gpointer value, gpointer user_data);
 static gboolean displaying_im_cb(PurpleAccount *account, const char *who, char **message, PurpleConversation *conv, PurpleMessageFlags flags, void *data);
 static void displayed_im_cb(PurpleAccount *account, const char *who, char *message, PurpleConversation *conv, PurpleMessageFlags flags);
 #ifndef _WIN32
-extern gchar *sanitize_utf(const gchar *msg, gsize len, gsize *newlen) __attribute__ ((weak));
+//extern gchar *sanitize_utf(const gchar *msg, gsize len, gsize *newlen) __attribute__ ((weak));
 #endif
 
 
@@ -87,11 +87,11 @@ sending_im_cb(PurpleAccount *account, char *recipient, char **buffer,
     tmp = strip_html_markup(*buffer);
 
 #ifndef _WIN32
-    if(sanitize_utf) {
+    /*if(sanitize_utf) {
         plain = sanitize_utf(tmp, -1, &dummy);
         g_free(tmp);
     }
-    else
+    else*/
 #endif
         plain = tmp;
 

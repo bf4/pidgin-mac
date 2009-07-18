@@ -24,6 +24,7 @@ mkdir -p "$RSC/data/sounds/purple"
 rsync -av --delete share/sounds/* "$RSC/data/sounds/purple/"
 mkdir -p "$RSC/data/purple"
 rsync -av --delete share/ca-certs "$RSC/data/purple/"
+cp ../pidgin-twitter/prefs.ui "$RSC/data"
 
 mkdir -p "$RSC/conf"
 cp "$SRCROOT/gtkrc" "$RSC/conf/"

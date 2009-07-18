@@ -35,8 +35,13 @@
 		239A3CBA101164810070329A /* srvc_resolve.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CA5101164810070329A /* srvc_resolve.c */; };
 		239A3CBB101164810070329A /* srvc_store.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CA6101164810070329A /* srvc_store.c */; };
 		239A3CBC101164810070329A /* st_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CA7101164810070329A /* st_list.c */; };
+		239A3CEF101168630070329A /* icon.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CD9101168630070329A /* icon.c */; };
+		239A3CF0101168630070329A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CDB101168630070329A /* main.c */; };
+		239A3CF3101168630070329A /* prefs.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CE0101168630070329A /* prefs.c */; };
+		239A3CF6101168630070329A /* twitter_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CE5101168630070329A /* twitter_api.c */; };
+		239A3CF7101168630070329A /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CE7101168630070329A /* util.c */; };
+		239A3CFA101168C90070329A /* ssl-gnutls.c in Sources */ = {isa = PBXBuildFile; fileRef = 239A3CF9101168C90070329A /* ssl-gnutls.c */; };
 		23B5E2F70F66BBA20024AEEE /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E2F60F66BBA20024AEEE /* config.c */; };
-		23B5E33B0F66C1CA0024AEEE /* ssl-gnutls.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E33A0F66C1CA0024AEEE /* ssl-gnutls.c */; };
 		23B5E43D0F66C4BC0024AEEE /* auth_psk_passwd.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E3670F66C4BC0024AEEE /* auth_psk_passwd.c */; };
 		23B5E43E0F66C4BC0024AEEE /* auth_rsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E3690F66C4BC0024AEEE /* auth_rsa.c */; };
 		23B5E43F0F66C4BC0024AEEE /* auth_srp_sb64.c in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E36B0F66C4BC0024AEEE /* auth_srp_sb64.c */; };
@@ -629,8 +634,20 @@
 		239A3CA5101164810070329A /* srvc_resolve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = srvc_resolve.c; path = "../meanwhile-1.0.2/src/srvc_resolve.c"; sourceTree = "<group>"; };
 		239A3CA6101164810070329A /* srvc_store.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = srvc_store.c; path = "../meanwhile-1.0.2/src/srvc_store.c"; sourceTree = "<group>"; };
 		239A3CA7101164810070329A /* st_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = st_list.c; path = "../meanwhile-1.0.2/src/st_list.c"; sourceTree = "<group>"; };
+		239A3CD9101168630070329A /* icon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icon.c; sourceTree = "<group>"; };
+		239A3CDA101168630070329A /* icon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icon.h; sourceTree = "<group>"; };
+		239A3CDB101168630070329A /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		239A3CDC101168630070329A /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		239A3CDF101168630070329A /* pidgin-twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pidgin-twitter.h"; sourceTree = "<group>"; };
+		239A3CE0101168630070329A /* prefs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prefs.c; sourceTree = "<group>"; };
+		239A3CE1101168630070329A /* prefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefs.h; sourceTree = "<group>"; };
+		239A3CE3101168630070329A /* purple_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purple_internal.h; sourceTree = "<group>"; };
+		239A3CE5101168630070329A /* twitter_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = twitter_api.c; sourceTree = "<group>"; };
+		239A3CE6101168630070329A /* twitter_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twitter_api.h; sourceTree = "<group>"; };
+		239A3CE7101168630070329A /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		239A3CE8101168630070329A /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		239A3CF9101168C90070329A /* ssl-gnutls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "ssl-gnutls.c"; path = "../../../../pidgin-2.5.8/libpurple/plugins/ssl/ssl-gnutls.c"; sourceTree = "<group>"; };
 		23B5E2F60F66BBA20024AEEE /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
-		23B5E33A0F66C1CA0024AEEE /* ssl-gnutls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "ssl-gnutls.c"; path = "../pidgin-2.5.5/libpurple/plugins/ssl/ssl-gnutls.c"; sourceTree = SOURCE_ROOT; };
 		23B5E3670F66C4BC0024AEEE /* auth_psk_passwd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = auth_psk_passwd.c; path = "../gnutls-2.6.4/lib/auth_psk_passwd.c"; sourceTree = SOURCE_ROOT; };
 		23B5E3680F66C4BC0024AEEE /* auth_psk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = auth_psk.h; path = "../gnutls-2.6.4/lib/auth_psk.h"; sourceTree = SOURCE_ROOT; };
 		23B5E3690F66C4BC0024AEEE /* auth_rsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = auth_rsa.c; path = "../gnutls-2.6.4/lib/auth_rsa.c"; sourceTree = SOURCE_ROOT; };
@@ -2265,6 +2282,7 @@
 				23B5E8140F66DEBE0024AEEE /* gfire */,
 				23B5E3600F66C4950024AEEE /* gnutls */,
 				239A3C7C1011645D0070329A /* meanwhile */,
+				239A3CD2101168630070329A /* pidgin-twitter */,
 				2229D7BF09C7779A0058DAED /* HIFramework */,
 			);
 			name = Sources;
@@ -2391,6 +2409,26 @@
 			);
 			name = mpi;
 			path = "../meanwhile-1.0.2/src/mpi";
+			sourceTree = "<group>";
+		};
+		239A3CD2101168630070329A /* pidgin-twitter */ = {
+			isa = PBXGroup;
+			children = (
+				239A3CD9101168630070329A /* icon.c */,
+				239A3CDA101168630070329A /* icon.h */,
+				239A3CDB101168630070329A /* main.c */,
+				239A3CDC101168630070329A /* main.h */,
+				239A3CDF101168630070329A /* pidgin-twitter.h */,
+				239A3CE0101168630070329A /* prefs.c */,
+				239A3CE1101168630070329A /* prefs.h */,
+				239A3CE3101168630070329A /* purple_internal.h */,
+				239A3CE5101168630070329A /* twitter_api.c */,
+				239A3CE6101168630070329A /* twitter_api.h */,
+				239A3CE7101168630070329A /* util.c */,
+				239A3CE8101168630070329A /* util.h */,
+			);
+			name = "pidgin-twitter";
+			path = "../pidgin-twitter";
 			sourceTree = "<group>";
 		};
 		23B5E3600F66C4950024AEEE /* gnutls */ = {
@@ -2728,7 +2766,7 @@
 		23D0005C0F40900300D3DF4B /* ssl */ = {
 			isa = PBXGroup;
 			children = (
-				23B5E33A0F66C1CA0024AEEE /* ssl-gnutls.c */,
+				239A3CF9101168C90070329A /* ssl-gnutls.c */,
 				23D000620F40900300D3DF4B /* ssl.c */,
 			);
 			path = ssl;
@@ -5300,7 +5338,6 @@
 				23D00C120F40903400D3DF4B /* xmppconsole.c in Sources */,
 				23EAC2720F49C75600CA55CF /* gtkdocklet-gtk.c in Sources */,
 				23B5E2F70F66BBA20024AEEE /* config.c in Sources */,
-				23B5E33B0F66C1CA0024AEEE /* ssl-gnutls.c in Sources */,
 				23B5E58D0F66CD670024AEEE /* read-file.c in Sources */,
 				23B5E58E0F66CD670024AEEE /* c-ctype.c in Sources */,
 				23B5E5900F66CD670024AEEE /* memchr.c in Sources */,
@@ -5330,6 +5367,12 @@
 				23B5E8200F66DED10024AEEE /* gf_packet.c in Sources */,
 				23B5E8210F66DED10024AEEE /* gfire.c in Sources */,
 				239A3C4F10115EEC0070329A /* buddy_memo.c in Sources */,
+				239A3CEF101168630070329A /* icon.c in Sources */,
+				239A3CF0101168630070329A /* main.c in Sources */,
+				239A3CF3101168630070329A /* prefs.c in Sources */,
+				239A3CF6101168630070329A /* twitter_api.c in Sources */,
+				239A3CF7101168630070329A /* util.c in Sources */,
+				239A3CFA101168C90070329A /* ssl-gnutls.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
